@@ -8,10 +8,10 @@
 # Site Settings
 theme					 : minimal-mistakes-jekyll
 locale                   : "en"
-title                    : "Grid-Searched"
+title                    : "Logan Blackstad"
 title_separator          : "|"
-name                     : "Timothy James Dobbins"
-description              : "A machine learning blog."
+name                     : "Logan Blackstad"
+description              : "A data analytics blog."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -77,31 +77,32 @@ analytics:
 
 
 # Site Author
+# in bio:  <a href='https://twitter.com/GeorgiaTech'>@GeorgiaTech</a>"
 author:
-  name             : "Timothy James Dobbins"
+  name             : "Logan Blackstad"
   avatar           : https://avatars0.githubusercontent.com/u/8451865
-  bio              : "data scientist doing ML and NLP. latest project: <a href='https://github.com/tmthyjames/Achoo'>Achoo</a> which uses machine learning to combat asthma. earning MS in CS <a href='https://twitter.com/GeorgiaTech'>@GeorgiaTech</a>"
-  location         : "Nashville, TN"
-  email            :
+  bio              : "Business Data Analyst focused on storytelling through vizualization. &#13;&#10;Latest Project: <a href='https://github.com/loganblackstad</a> which [blank]. Pursing self study in data analytics. 
+  location         : "Atlanta, GA"
+  email            : logan.blackstad@gmail.com
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : logan.blackstad
   foursquare       :
-  github           : tmthyjames
+  github           : loganblackstad
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : tim-dobbins/
+  linkedin         : loganblackstad/
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : TmthyDobbins
+  twitter          : LoganBlackstad
   vine             :
   weibo            :
   xing             :
