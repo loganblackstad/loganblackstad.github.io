@@ -1,2 +1,2 @@
 # loganblackstad.github.io
-create a user page to host a portfolio of projects
+this is a GitHub user page that was created to host a portfolio of projects for Logan Blackstad
