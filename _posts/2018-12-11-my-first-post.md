@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ## Tutorial: Creating a personal GitHub Page and working with Jekyll
