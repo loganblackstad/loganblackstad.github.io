@@ -1,9 +1,10 @@
 ---
-title: "Creating A Markdown Post"
+title: "Creating A Simple Markdown Post"
 author_profile: false
 author: Logan Blackstad
 excerpt: "Playing around with a simple markdown post."
-modified: 2018-12-11T15:45:18-04:00
+modified: 2018-12-11
+updated: 2018-12-11
 categories: [posts, articles, december, 2018]
 tags: [markdown, jekyll, testing, css, html]
 comments: true
