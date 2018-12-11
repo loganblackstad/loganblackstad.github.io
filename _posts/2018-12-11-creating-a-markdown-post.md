@@ -1,6 +1,12 @@
 ---
 published: true
 ---
+---
+layout: post
+title: Tutorial: Creating a personal GitHub Page and working with Jekyl
+categories: [2018, december, jekyll, github pages]
+tags: [GitHub Pages, jekyll]
+---
 
 ## Tutorial: Creating a personal GitHub Page and working with Jekyll
 
