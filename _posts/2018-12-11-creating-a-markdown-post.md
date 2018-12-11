@@ -23,6 +23,3 @@ Here is a nice vector image of the Atlanta Sky Line:
 
 You can download a copy of my resume here:  [PDF]({{ site.url }}/assets/Resume - Logan Blackstad.pdf)
 
-
-
-categories: [2018, december] tags: [GitHub Pages, jekyll, python, jupyter-notebook, tools] ---
