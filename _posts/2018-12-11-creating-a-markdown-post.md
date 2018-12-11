@@ -7,17 +7,7 @@ published: true
 [How to create a post with Jekyll](https://www.youtube.com/watch?v=E0RbrYSMw3g "How to create a post with Jekyll")
 
 
-
-![]({{site.baseurl}}/_posts/gxo98hwhfz811.jpg)![gxo98hwhfz811.jpg]({{site.baseurl}}/_posts/gxo98hwhfz811.jpg)
-
-
-
-
-
-
-
-
-
+![]({{site.baseurl}}/_posts/gxo98hwhfz811.jpg)
 
 
 
