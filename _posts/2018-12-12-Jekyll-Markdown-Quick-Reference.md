@@ -5,7 +5,10 @@ tags: [ Jekyll, Markdown ]
 ---
 
 
-`Jekyll` Markdown Quick Reference
+Jekyll Markdown Quick Reference
+
+
+The raw markdown is displayed in the window below:
 
 ```markdown
 This is a demo of some styled elements: 
@@ -70,9 +73,9 @@ Finally, horizontal lines
 
 --------------
 
-See below for how it beautifully renders in `HTML`
+Now let's see how it renders in `HTML`:
 
-
+----
 This is a demo of some styled elements: 
 
 [View the markdown used to create this post](https://github.com/loganblackstad/loganblackstad.github.io/blob/master/_posts/2018-12-12-Jekyll-Markdown-Quick-Reference.md).
@@ -83,11 +86,14 @@ This is a paragraph, it's surrounded by whitespace. Next up are some headers, th
 ## Header 2 (H1 is reserved for post titles)##
 ### Header 3
 #### Header 4
- 
-A link to my [GitHub Repositories](https://github.com/loganblackstad/). 
+  
+
+
+A link to my [GitHub Repositories](https://github.com/loganblackstad/).  
 A literal link: <https://github.com/loganblackstad/>
   
-An image, located within "/assets/images" :
+An image, located within "/assets/images" :  
+
 ![Coding Icon Image]({{ site.baseurl }}/assets/images/icon-sencha-test-studio-1.png "Coding Icon Image")
 
 
@@ -113,7 +119,7 @@ Syntax highlighting can be used by wrapping your code in a liquid tag like so:
 
 {{ "{% highlight javascript " }}%}  
 /* Some pointless Javascript */
-var rawr = ["r", "a", "w", "r"];
+var rawr = ["r", "a", "w", "r"];  
 {{ "{% endhighlight " }}%}  
 
 creates...
@@ -122,7 +128,8 @@ creates...
 /* Some pointless Javascript */
 var rawr = ["r", "a", "w", "r"];
 {% endhighlight %}
- 
+  
+  
 Use two trailing spaces  
 on the right  
 to create linebreak tags  
