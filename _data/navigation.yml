@@ -1,9 +1,9 @@
 # main links
 main:
   - title: "Projects"
-    url: "/categories/#projects/"
+    url: "/categories/projects/"
   - title: "Posts"
-    url: '#in-development'
+    url: '/posts/'
   - title: "About"
     url: '/about-me/'
 
