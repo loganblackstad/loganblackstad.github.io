@@ -8,7 +8,7 @@ author_profile: true
 ### My Code:
 
 
-| Date Added | Type | Post/Code                                     |
+| Date Added | Type | Link                                     |
 | ---- |----| ----------------------------------------------|
 | *YYYY-MM-DD*  | *post/code/etc* | *Title*  |
 | 2018-12-11    | post              |          |
@@ -22,7 +22,7 @@ author_profile: true
 ### Other People's Code:
 
 
-| Date Added    | Type          | Post/Code                                     |
+| Date Added    | Type          | Link                                     |
 | ---- |----| ----------------------------------------------|
 | *YYYY-MM-DD*  | *post/code/etc* | *Title*  |
 | 2018-12-11    | post          |          |
