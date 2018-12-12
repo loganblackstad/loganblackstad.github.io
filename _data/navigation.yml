@@ -1,12 +1,11 @@
 # main links
 main:
   - title: "Projects"
-    url: "/categories/projects/"
+    url: '/projects/'
   - title: "Posts"
     url: '/posts/'
   - title: "About"
-    url: '/about-me/'
-
+    url: '/about/'
 
 docs:
   - title: Getting Started
