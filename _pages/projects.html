@@ -5,11 +5,6 @@ title: "Projects"
 author_profile: true
 ---
 
-<ul>
-  {% for post in site.posts %}
-   {% include archive-single.html %}
-  {% endfor %}
-</ul>
-
-## Notebooks:
-- [**iPython: assignment, function argument passing, views, and copies**](https://github.com/loganblackstad/nbviewer-test/blob/master/atlanta-weather-plotting.ipynb)
+{% for post in site.posts %}
+ {% include archive-single.html %}
+{% endfor %}
