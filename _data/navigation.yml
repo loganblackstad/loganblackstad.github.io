@@ -2,14 +2,10 @@
 main:
   - title: "Projects"
     url: "/categories/#projects/"
-  - title: "In Development"
+  - title: "Posts"
     url: '#in-development'
   - title: "About"
     url: '/about-me/'
-  - title: "Images"
-    url: "/categories/#gallery/"
-  - title: "Post Archive"
-    url: "/categories/#post-archive/"
 
 
 docs:
