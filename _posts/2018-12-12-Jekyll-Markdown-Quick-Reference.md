@@ -5,10 +5,9 @@ tags: [ Jekyll, Markdown ]
 ---
 
 
-Jekyll Markdown Quick Reference
+Let's see how `markdown` is rendered in `HTML`.
 
-
-The raw markdown is displayed in the window below:
+First, let's take a look at some raw markdown(displayed in the window below).  Then we can compare it to the HTML output rendered under it. 
 
 ```markdown
 This is a demo of some styled elements: 
