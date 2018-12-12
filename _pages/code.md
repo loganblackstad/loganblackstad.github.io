@@ -1,11 +1,11 @@
 ---
 layout: archive
-permalink: /code/
-title: "Code"
+permalink: /archive/
+title: "Archive"
 author_profile: true
 ---
 
-### My Code:
+### My Posts & Code:
 
 
 | Date Added | Type | Link                                     |
@@ -19,7 +19,7 @@ author_profile: true
 
 
 
-### Other People's Code:
+### Other People's Code (Usefel References):
 
 
 | Date Added    | Type          | Link                                     |
