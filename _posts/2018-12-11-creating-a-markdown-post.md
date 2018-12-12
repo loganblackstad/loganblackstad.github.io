@@ -22,5 +22,5 @@ Here is a nice vector image of the Atlanta Sky Line:
 
 
 
-You can download a copy of my resume here:  [PDF]({{ site.url }}/assets/Resume - Logan Blackstad.pdf)
+You can download a copy of my resume here:  [PDF]({{site.url}}/assets/Resume - Logan Blackstad.pdf)
 
