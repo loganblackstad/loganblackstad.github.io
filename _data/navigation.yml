@@ -4,7 +4,7 @@ main:
     url: "/categories/#projects/"
   - title: "In Development"
     url: '#in-development'
-  - title: "About Me"
+  - title: "About"
     url: '/about-me/'
   - title: "Images"
     url: "/categories/#gallery/"
