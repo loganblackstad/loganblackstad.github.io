@@ -71,7 +71,6 @@ $$
 
 **_Reference_**
 - [MathJax cheatsheet](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-qu%E2%80%8C%E2%80%8Bick-reference)<br><https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-qu%E2%80%8C%E2%80%8Bick-reference>
-
 - <https://cdn.rawgit.com/mathjax/MathJax/2.7.1/test/sample-eqnum.html> (some MathJax example)
 - <https://www.mathjax.org/#demo> (test your equation at here)
 - <https://kramdown.gettalong.org/syntax.html#math-blocks> (Kramdown rendering of `$$...$$` to math mode)
