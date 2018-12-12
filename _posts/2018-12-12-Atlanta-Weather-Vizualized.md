@@ -9,7 +9,7 @@ You can find the beginning of my .ipynb test file here:
 https://github.com/loganblackstad/nbviewer-test/blob/master/atlanta-weather-plotting.ipynb
 
 
-[ -->  PAGE UNDER CONSTRUCTION  <-- ]
+# [ -->  PAGE UNDER CONSTRUCTION  <-- ]
 
 ## To Do
 
