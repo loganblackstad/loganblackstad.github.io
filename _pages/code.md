@@ -5,6 +5,10 @@ title: "Archive"
 author_profile: true
 ---
 
+All source code for my posts and code can be found in my GitHub repositories:
+https://github.com/loganblackstad?tab=repositories 
+
+
 ### My Posts & Code:
 
 
