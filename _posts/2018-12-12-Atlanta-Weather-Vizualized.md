@@ -1,7 +1,7 @@
 ---
-title: Atlanta Weather Vizualized
+title: Atlanta Weather Visualized
 date: 2018-12-12
-tags: [Atlanta, Data Vizualization, Python]
+tags: [Atlanta, Data Visualization, Python]
 use_math: true
 ---
 
@@ -17,7 +17,7 @@ Skills:
 data cleaning - remove unnecessary columns  
 deal with missing data - interpolate data with cross product  
 data smoothing  
-vizualization  
+visualization  
 insights  
 
 
