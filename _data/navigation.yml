@@ -1,9 +1,9 @@
 # main links
 main:
   - title: "Projects"
-    url: '/projects/'
+    url: https://loganblackstad.github.io/projects/
   - title: "Posts"
-    url: '/'
+    url: https://loganblackstad.github.io/posts/
   - title: "About"
     url: '/about/'
 
