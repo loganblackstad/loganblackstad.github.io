@@ -7,8 +7,6 @@ tags: [ Jekyll, Markdown ]
 
 `Jekyll` Markdown Quick Reference
 
-Write in simply awesome `markdown`
-
 ```markdown
 This is a demo of all styled elements in Jekyll Now. 
 
