@@ -5,7 +5,7 @@ title: "Posts"
 author_profile: true
 ---
 
-<ul>
+
 {% for post in site.posts %}
   {% unless post.next %}
     <font color="#778899"><h2>{{ post.date | date: '%Y %B' }}</h2></font>
@@ -18,7 +18,7 @@ author_profile: true
    {% endunless %}
  {% include archive-single.html %}
 {% endfor %}
-</ul>
+
 
 ## Notebooks:
 ![iPython: assignment, function argument passing, views, and copies](https://github.com/loganblackstad/nbviewer-test/blob/master/atlanta-weather-plotting.ipynb)
