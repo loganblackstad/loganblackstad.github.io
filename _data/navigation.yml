@@ -6,6 +6,11 @@ main:
     url: '#in-development'
   - title: "About Me"
     url: '/about-me/'
+  - title: "Images"
+    url: "/categories/#gallery/"
+  - title: "Post Archive"
+    url: "/categories/#post-archive/"
+
 
 docs:
   - title: Getting Started
