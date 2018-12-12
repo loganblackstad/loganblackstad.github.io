@@ -8,9 +8,9 @@ author_profile: true
 ### My Code:
 
 
-| Date Added    | Type      | Post/Code                                     |
-| ------------- |-------------------| ----------------------------------------------|
-| *YYYY-MM-DD*  | [*post/code/etc*] | *Title*  |
+| Date Added | Type | Post/Code                                     |
+| ---- |----| ----------------------------------------------|
+| *YYYY-MM-DD*  | *post/code/etc* | *Title*  |
 | 2018-12-11    | post              |          |
 | 2018-12-12    | code              | [Atlanta Weather Vizualition][1]|
 
@@ -23,8 +23,8 @@ author_profile: true
 
 
 | Date Added    | Type          | Post/Code                                     |
-| ------------- |---------------| ----------------------------------------------|
-| YYYY-MM-DD    | post/code     | *Title*  |
+| ---- |----| ----------------------------------------------|
+| *YYYY-MM-DD*  | *post/code/etc* | *Title*  |
 | 2018-12-11    | post          |          |
 | 2018-12-12    | code          | [Visualizing complex-valued functions with Matplotlib and Mayavi][101]|
 
