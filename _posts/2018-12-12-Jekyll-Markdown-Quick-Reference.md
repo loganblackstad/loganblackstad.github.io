@@ -8,23 +8,23 @@ tags: [ Jekyll, Markdown ]
 `Jekyll` Markdown Quick Reference
 
 ```markdown
-This is a demo of all styled elements in Jekyll Now. 
+This is a demo of some styled elements: 
 
-[View the markdown used to create this post](https://raw.githubusercontent.com/barryclark/www.jekyllnow.com/gh-pages/_posts/2014-6-19-Markdown-Style-Guide.md).
+[View the markdown used to create this post](https://github.com/loganblackstad/loganblackstad.github.io/blob/master/_posts/2018-12-12-Jekyll-Markdown-Quick-Reference.md).
+
 
 This is a paragraph, it's surrounded by whitespace. Next up are some headers, they're heavily influenced by GitHub's markdown style.
 
 ## Header 2 (H1 is reserved for post titles)##
-
 ### Header 3
-
 #### Header 4
  
-A link to [Jekyll Now](http://github.com/barryclark/jekyll-now/). A big ass literal link <http://github.com/barryclark/jekyll-now/>
+A link to my [GitHub Repositories](https://github.com/loganblackstad/). 
+A literal link: <https://github.com/loganblackstad/>
   
-An image, located within /images
+An image, located within "/assets/images" :
+![Coding Icon Image]({{ site.baseurl }}/assets/images/icon-sencha-test-studio-1.png "Coding Icon Image")
 
-![an image alt text]({{ site.baseurl }}/images/jekyll-logo.png "an image title")
 
 * A bulletted list
 - alternative syntax 1
@@ -73,23 +73,23 @@ Finally, horizontal lines
 See below for how it beautifully renders in `HTML`
 
 
-This is a demo of all styled elements in Jekyll Now. 
+This is a demo of some styled elements: 
 
-[View the markdown used to create this post](https://raw.githubusercontent.com/barryclark/www.jekyllnow.com/gh-pages/_posts/2014-6-19-Markdown-Style-Guide.md).
+[View the markdown used to create this post](https://github.com/loganblackstad/loganblackstad.github.io/blob/master/_posts/2018-12-12-Jekyll-Markdown-Quick-Reference.md).
+
 
 This is a paragraph, it's surrounded by whitespace. Next up are some headers, they're heavily influenced by GitHub's markdown style.
 
 ## Header 2 (H1 is reserved for post titles)##
-
 ### Header 3
-
 #### Header 4
  
-A link to [Jekyll Now](http://github.com/barryclark/jekyll-now/). A big ass literal link <http://github.com/barryclark/jekyll-now/>
+A link to my [GitHub Repositories](https://github.com/loganblackstad/). 
+A literal link: <https://github.com/loganblackstad/>
   
-An image, located within /images
+An image, located within "/assets/images" :
+![Coding Icon Image]({{ site.baseurl }}/assets/images/icon-sencha-test-studio-1.png "Coding Icon Image")
 
-![an image alt text]({{ site.baseurl }}/images/jekyll-logo.png "an image title")
 
 * A bulletted list
 - alternative syntax 1
