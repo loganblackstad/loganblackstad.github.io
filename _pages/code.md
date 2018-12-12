@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 All source code for my posts and code can be found in my GitHub repositories:
-(https://github.com/loganblackstad?tab=repositories)
+<https://github.com/loganblackstad?tab=repositories>
 
 
 ### My Posts & Code:
@@ -18,7 +18,7 @@ All source code for my posts and code can be found in my GitHub repositories:
 | 2018-12-11  | post  |          |
 | 2018-12-12  | code  | [Atlanta Weather Vizualition][1]|
 
-[1]: http://nbviewer.jupyter.org/github/loganblackstad/nbviewer-tesst/blob/master/atlanta-weather-plotting.ipynb
+[1]: <http://nbviewer.jupyter.org/github/loganblackstad/nbviewer-tesst/blob/master/atlanta-weather-plotting.ipynb>
 
 
 
