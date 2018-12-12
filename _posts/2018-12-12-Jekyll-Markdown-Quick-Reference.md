@@ -86,14 +86,13 @@ This is a paragraph, it's surrounded by whitespace. Next up are some headers, th
 ## Header 2 (H1 is reserved for post titles)##
 ### Header 3
 #### Header 4
-  
 
-
+<br>
+<br>
 A link to my [GitHub Repositories](https://github.com/loganblackstad/).  
 A literal link: <https://github.com/loganblackstad/>
   
 An image, located within "/assets/images" :  
-
 ![Coding Icon Image]({{ site.baseurl }}/assets/images/icon-sencha-test-studio-1.png "Coding Icon Image")
 
 
@@ -129,11 +128,12 @@ creates...
 var rawr = ["r", "a", "w", "r"];
 {% endhighlight %}
   
-  
+<br>
 Use two trailing spaces  
 on the right  
 to create linebreak tags  
- 
+
+<br> 
 Finally, horizontal lines
  
 ----
