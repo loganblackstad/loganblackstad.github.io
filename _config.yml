@@ -7,8 +7,9 @@
 
 # Site Settings
 theme					 : minimal-mistakes-jekyll
+baseurl        : /loganblackstad
 locale                   : "en"
-title                    : "loganblackstad.github.io"
+title                    : "loganblackstad.github.io/loganblackstad"
 title_separator          : "|"
 name                     : "Logan Blackstad"
 description              : "A data analytics blog."
