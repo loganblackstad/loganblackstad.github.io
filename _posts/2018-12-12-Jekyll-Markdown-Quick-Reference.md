@@ -1,21 +1,15 @@
 ---
 title: Jekyll Markdown Style Guide - Quick Reference
 date: 2018-12-12
-tags: [Jekyll, Markdown]
-layout: post
+tags: [ Jekyll, Markdown ]
 ---
 
 
-#Jekyll Markdown Quick Reference
+`Jekyll` Markdown Quick Reference
 
-
-####Write in simply awesome `markdown`
+Write in simply awesome `markdown`
 
 ```markdown
-layout: post
-title: Markdown Style Guide
----
-
 This is a demo of all styled elements in Jekyll Now. 
 
 [View the markdown used to create this post](https://raw.githubusercontent.com/barryclark/www.jekyllnow.com/gh-pages/_posts/2014-6-19-Markdown-Style-Guide.md).
@@ -78,12 +72,8 @@ Finally, horizontal lines
 
 --------------
 
-####See below for how it beautifully renders in `HTML` 😉
+See below for how it beautifully renders in `HTML`
 
----
-layout: post
-title: Markdown Style Guide
----
 
 This is a demo of all styled elements in Jekyll Now. 
 
