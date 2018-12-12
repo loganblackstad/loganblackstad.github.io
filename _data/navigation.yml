@@ -1,11 +1,11 @@
 # main links
 main:
   - title: "Projects"
-    url: https://loganblackstad.github.io/projects/
+    url: /projects/
   - title: "Posts"
-    url: https://loganblackstad.github.io/posts/
+    url: /posts/
   - title: "About"
-    url: '/about/'
+    url: /about/
 
 docs:
   - title: Getting Started
