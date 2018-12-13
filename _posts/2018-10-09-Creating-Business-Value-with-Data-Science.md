@@ -15,3 +15,6 @@ use_math: true
 
 {% gist amacoder/ed963f13f536cc1935f6c238db28da24 %}
 
+
+<script src="https://gist.github.com/benbalter/5555251.js"></script>
+
