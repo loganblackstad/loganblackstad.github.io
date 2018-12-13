@@ -9,8 +9,7 @@ use_math: true
 # container {
     float: left;
     margin: 0 - 240px 0 0;
-    width: 100 % ;
-}
+    width: 100 %;
 
 """
 Some pointless Python Code
