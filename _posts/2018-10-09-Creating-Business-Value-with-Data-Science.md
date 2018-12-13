@@ -28,8 +28,7 @@ df = pd.DataFrame(data=d)
 
 
 
-{% gist amacoder/ed963f13f536cc1935f6c238db28da24 %}
+{% gist 87484e4 %}
 
 
 <script src="https://gist.github.com/benbalter/5555251.js"></script>
-
