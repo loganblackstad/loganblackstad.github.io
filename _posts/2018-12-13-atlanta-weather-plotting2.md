@@ -117,3 +117,4 @@ plot_smoothed(all_days, dfa['TMAX'], 20)
 plot_smoothed(all_days, dfa['TMIN'], 20)
 
 # 
+
