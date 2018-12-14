@@ -5,6 +5,7 @@ date: 2018-12-13
 tags: [ python, notebook]
 ---
 
+<font size=2>
 
 **In [1]:**
 
@@ -168,3 +169,6 @@ plot_smoothed(all_days, dfa['TMIN'], 20)
 {% highlight python %}
 # 
 {% endhighlight %}
+
+
+</font>
