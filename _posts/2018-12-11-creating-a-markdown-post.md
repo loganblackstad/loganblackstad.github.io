@@ -18,7 +18,7 @@ You can follow this nice YouTube tutorial like I did:<br>
 Here is a nice vector image of the Atlanta Sky Line:
 ![atlanta skyline](/assets/images/atl.jpg) 
 
-<img src="https://loganblackstad.github.io/assets/images/atl.jpg" width="48">
+<img src="https://loganblackstad.github.io/assets/images/atl.jpg" width="300">
 
 
 
