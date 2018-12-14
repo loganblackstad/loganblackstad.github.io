@@ -1,24 +1,13 @@
 ---
-title: Atlanta Weather Plotting 3
+title: Atlanta Weather Plotting
 date: 2018-12-13
 tags: [ python, notebook]
 ---
 
 
-**In [None]:**
+**In [1]:**
 
 {% highlight python %}
-"""
-author:  Logan Blackstad
-file:    atlanta-weather-plotting.py
-date:    Dec 06 2018
-
-Description:
-Goal --> Plot the daily min and max temps for ATL in 2016 vs 2017 vs 2018
-
-
-"""
-
 import numpy as np
 import matplotlib.pyplot as pp
 import matplotlib as mpl
@@ -35,9 +24,7 @@ import os
 from ggplot import *
 {% endhighlight %}
 
-**In [None]:**
 
-{% highlight python %}
 FIRST, get weather data:
 
 I queried weather data from NOAA because it was free:
@@ -50,52 +37,39 @@ dates = 01/01/2016 to 12/01/2018
 NOAA sends an email file containing the csv of weather data to the email youy specify.
 
 I then imported atlanta-weather.csv as a pandas DataFrame. (Important: the .csv file has to be in the same directory as your jupyter file.) 
-{% endhighlight %}
 
-**In [None]:**
 
+**In [2]:**
 {% highlight python %}
 test_w = pd.read_csv("test.csv")
 test_w.head()
-
 {% endhighlight %}
 
-**In [None]:**
-
+**In [3]:**
 {% highlight python %}
 atl_w = pd.read_csv("atlanta-weather.csv", dtype = object)
 {% endhighlight %}
 
-**In [None]:**
-
+**In [4]:**
 {% highlight python %}
 atl_w_col_names = list(atl_w.columns.values)
 print (atl_w_col_names, end = '')
 {% endhighlight %}
 
-**In [None]:**
-
+**In [5]:**
 {% highlight python %}
 list(set(atl_w.dtypes))
 {% endhighlight %}
 
-**In [None]:**
 
-{% highlight python %}
-
-{% endhighlight %}
-
-**In [None]:**
-
+**In [6]:**
 {% highlight python %}
 uniq_dict = {}
 for col in atl_w:
     uniq_dict[col] = atl_w[col].value_counts().to_dict()
-
 {% endhighlight %}
 
-**In [None]:**
-
+**In [7]:**
 {% highlight python %}
 uniq_dict
 
