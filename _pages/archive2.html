@@ -25,9 +25,9 @@ author_profile: true
 <br>
 
 <time datetime="{{ post.date | date:"%Y-%m-%d" }}">
-{{ post.date | date:"%Y-%m-%d" }}
-</time>
    ; <a href="{{ site.baseurl }}{{ post.url }}" style="color:#00008e">{{ post.title }}</a><br />
+{{ post.date | date:"%Y-%m-%d" }}</time>
+<a href="{{ site.baseurl }}{{ post.url }}" style="color:#00008e">{{ post.title }}</a><br />
 {% endfor %}
 {% else %}
 <span>No posts</span>
