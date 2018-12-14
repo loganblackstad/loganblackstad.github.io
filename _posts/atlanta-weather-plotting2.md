@@ -1,3 +1,9 @@
+---
+title: Atl Plotting Weather2
+date: 2018-12-13
+tags: [ Jekyll, IPython ]
+---
+
 
 """
 author:  Logan Blackstad
