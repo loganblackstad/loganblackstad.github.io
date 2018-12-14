@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 
-<font size="-.5">
+<font size="-1">
 
 <ul class="tags-box">
 
@@ -18,12 +18,8 @@ author_profile: true
 {% assign year = this_year %}
 {% unless post == site.posts.first %}
 {% endunless %}
-<id="{{ year }}">{{ year }}
+<strong><id="{{ year }}">{{ year }}</id="{{></strong><br>
 {% endunless %}
-
-<br>
-<br>
-
 <time datetime="{{ post.date | date:"%Y-%m-%d" }}">
 {{ post.date | date:"%Y-%m-%d" }}</time>
 <a href="{{ site.baseurl }}{{ post.url }}" style="color:#00008e">{{ post.title }}</a><br />
