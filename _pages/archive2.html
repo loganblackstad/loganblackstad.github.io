@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 
-<font size="-1">
+<font size="12">
 
 <ul class="tags-box">
 
@@ -22,18 +22,16 @@ author_profile: true
 {% endunless %}
 
 <br>
+<br>
+
 <time datetime="{{ post.date | date:"%Y-%m-%d" }}">
 {{ post.date | date:"%Y-%m-%d" }}
 </time>
    ; <a href="{{ site.baseurl }}{{ post.url }}" style="color:#00008e">{{ post.title }}</a><br />
 {% endfor %}
-
 {% else %}
-
 <span>No posts</span>
-
 {% endif %}
-
 </ul>
 
 </font>
