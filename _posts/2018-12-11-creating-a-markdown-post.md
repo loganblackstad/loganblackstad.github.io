@@ -11,7 +11,7 @@ comments: true
 published: true
 ---
 
-You can follow this nice YouTube tutorial like I did:
+You can follow this nice YouTube tutorial like I did:<br>
 [How to create a post with Jekyll](https://www.youtube.com/watch?v=E0RbrYSMw3g "How to create a post with Jekyll")
 
 
