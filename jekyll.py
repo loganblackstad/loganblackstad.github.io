@@ -14,7 +14,7 @@ for arg in sys.argv:
 
 c = get_config()
 c.NbConvertApp.export_format = 'markdown'
-c.MarkdownExporter.template_path = ['C:/Users/Logan/Desktop/cs/GitHub/loganblackstad.github.io/notebook_initializer.ipynb']  # point this to your jekyll template file
+c.MarkdownExporter.template_path = ['C:/Users/Logan/Desktop/cs/GitHub/loganblackstad.github.io/jekyll.tpl']  # point this to your jekyll template file
 c.MarkdownExporter.template_file = 'jekyll'
 # c.Application.verbose_crash=True
 
