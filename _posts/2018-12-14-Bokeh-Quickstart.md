@@ -349,7 +349,7 @@ Find more details and information at the resources listed below:
 Be sure to follow us on Twitter [@bokehplots](http://twitter.com/BokehPlots>)
 and on [Youtube](https://www.youtube.com/c/Bokehplots)!
 
-<img src="../images/bokeh-transparent.png" width="64px" height="64px"> 
+<img src="/assets/images/bokeh-transparent.png" width="64px" height="64px"> 
 
 **In [None]:**
 
