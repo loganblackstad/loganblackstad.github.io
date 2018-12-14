@@ -142,7 +142,7 @@ pp.title('\nATL Airport Temperature (min, avg, max)\n[Jan 01 2016 to Dec 01 2018
 
 {% endhighlight %}
 <div>
-<a><img src="/assets/images/atlanta-weather-1.png"></a>
+<a><img src="/assets/images/atl-weather-1.png"></a>
 </div>
 
 
@@ -169,7 +169,7 @@ plot_smoothed(all_days, dfa['TMIN'], 20)
 {% endhighlight %}
 
 <div>
-<a><img src="/assets/images/atlanta-weather-2.png"></a>
+<a><img src="/assets/images/atl-weather-2.png"></a>
 </div>
 
 
