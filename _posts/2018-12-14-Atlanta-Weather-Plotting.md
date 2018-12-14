@@ -5,7 +5,7 @@ date: 2018-12-13
 tags: [ python, notebook]
 ---
 
-<font size=2>
+<span style="font-family:Fontawesome; font-size:1.0em;">
 
 **In [1]:**
 
@@ -171,4 +171,4 @@ plot_smoothed(all_days, dfa['TMIN'], 20)
 {% endhighlight %}
 
 
-</font>
+</span>
