@@ -5,7 +5,7 @@ title: "Bokeh Quickstart"
 tags: [ python, jupyter notebooks ]
 --- 
 <div>
-<a href="http://bokeh.pydata.org/"><img src="../images/bokeh-header.png"></a>
+<a href="http://bokeh.pydata.org/"><img src="/assets/images/bokeh-header.png"></a>
 </div>
 
 # Bokeh 5-minute Overview
