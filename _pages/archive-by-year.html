@@ -21,7 +21,7 @@ author_profile: true
 <br><strong><id="{{ year }}">{{ year }}</id="></strong><br>
 {% endunless %}
 <time datetime="{{ post.date | date:"%Y-%m-%d" }}">
-{{ post.date | date:"%Y-%m-%d" }}</time>
+{{ post.date | date:"%Y-%m-%d" }}</time>   
 <a href="{{ site.baseurl }}{{ post.url }}" style="color:#00008e">{{ post.title }}</a><br />
 {% endfor %}
 {% else %}
