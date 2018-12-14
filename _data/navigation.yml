@@ -6,6 +6,8 @@ main:
     url: /posts/
   - title: "Archive"
     url: /archive/
+  - title: "Archive2"
+    url: /archive2/
   - title: "About"
     url: /about/
 
