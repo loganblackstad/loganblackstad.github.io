@@ -1,275 +1,32 @@
 ---
 layout: archive
+title: Archive
 permalink: /archive/
-title: "Archive"
 author_profile: true
 ---
 
-<head>
 
-<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
+<font size="-1">
 
-<div class=WordSection1>
+<ul class="tags-box">
 
-<p class=MsoNormal style='tab-stops:1.0in 265.5pt right 549.0pt'><span
-lang=PT-BR style='mso-bidi-font-size:10.0pt;font-family:"Calibri",sans-serif;
-mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-latin;
-mso-ansi-language:PT-BR'>All source code for my posts and code can be found in my GitHub repositories:<span
-style='mso-spacerun:yes'>  </span><br><a
-href="https://github.com/loganblackstad?tab=repositories" style="color:#0000EE"> github.com/loganblackstad?tab=repositories</a><br>
-</span><b
-style='mso-bidi-font-weight:normal'><span lang=PT-BR style='font-size:20.0pt;
-mso-bidi-font-size:10.0pt;font-family:"Calibri",sans-serif;mso-bidi-font-family:
-"Times New Roman";mso-bidi-theme-font:minor-latin;mso-ansi-language:PT-BR'> <o:p></o:p></span></b></p>
+{% if site.posts != empty %}
 
+{% for post in site.posts %}
+{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+{% unless year == this_year %}
+{% assign year = this_year %}
+{% unless post == site.posts.first %}
+{% endunless %}
+<br><strong><id="{{ year }}">{{ year }}</id="></strong><br><br>
+{% endunless %}
+<time datetime="{{ post.date | date:"%Y-%m-%d" }}">
+{{ post.date | date:"%Y-%m-%d" }}</time> &nbsp; &nbsp; &nbsp;
+<a href="{{ site.baseurl }}{{ post.url }}" style="color:#00008e">{{ post.title }}</a><br />
+{% endfor %}
+{% else %}
+<span>No posts</span>
+{% endif %}
+</ul>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:2px 6px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:2px 6px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-b3sw{font-weight:bold;background-color:#efefef;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-  <tr>
-    <th class="tg-b3sw">Last Modified</th>
-    <th class="tg-b3sw">Type</th>
-    <th class="tg-b3sw">Title</th>
-  </tr>
-  <tr>
-    <td class="tg-0lax">2018-12-07</td>
-    <td class="tg-0lax">post</td>
-    <td class="tg-0lax"><a href="https://loganblackstad.github.io/Test-Math/" style="color:#00008e">Test Math</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">2018-12-11</td>
-    <td class="tg-0lax">post</td>
-    <td class="tg-0lax"><a href="https://loganblackstad.github.io/posts/articles/december/2018/creating-a-markdown-post/" style="color:#00008e">Creating A Markdown Post</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">2018-12-12</td>
-    <td class="tg-0lax">post</td>
-    <td class="tg-0lax"><a href="https://loganblackstad.github.io/Atlanta-Weather-Visualized/" style="color:#00008e">Atlanta Weather Visualized</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">2018-12-12</td>
-    <td class="tg-0lax">post</td>
-    <td class="tg-0lax"><a href="https://loganblackstad.github.io/Jekyll-Markdown-Quick-Reference/" style="color:#00008e">Jekyll Markdown Quick Reference</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">2018-12-12</td>
-    <td class="tg-0lax">jupyter notebook</td>
-    <td class="tg-0lax"><a href="https://github.com/loganblackstad/nbviewer-test/blob/master/atlanta-weather-plotting.ipynb" style="color:#00008e">Atlanta Weather Visualition</td>
-  </tr>
-</table>
-
-
-
-<br>
-
-<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
-
-<div class=WordSection1>
-
-<p class=MsoNormal style='tab-stops:1.0in 265.5pt right 549.0pt'><span
-lang=PT-BR style='mso-bidi-font-size:10.0pt;font-family:"Calibri",sans-serif;
-mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-latin;
-mso-ansi-language:PT-BR'>Other useful posts and source code can be found here:<span
-style='mso-spacerun:yes'>  </span><b
-style='mso-bidi-font-weight:normal'><span lang=PT-BR style='font-size:20.0pt;
-mso-bidi-font-size:10.0pt;font-family:"Calibri",sans-serif;mso-bidi-font-family:
-"Times New Roman";mso-bidi-theme-font:minor-latin;mso-ansi-language:PT-BR'> <o:p></o:p></span></b></p>
-
-
-
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:2px 6px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:2px 6px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-b3sw{font-weight:bold;background-color:#efefef;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-  <tr>
-    <th class="tg-b3sw">Last Modified</th>
-    <th class="tg-b3sw">Type</th>
-    <th class="tg-b3sw">Title</th>
-  </tr>
-  <tr>
-    <td class="tg-0lax">2018-12-11</td>
-    <td class="tg-0lax">blog</td>
-    <td class="tg-0lax"><a href="https://mmistakes.github.io/minimal-mistakes/about/" style="color:#00008e">Michael Rose's Minimal Mistakes</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">2018-12-12</td>
-    <td class="tg-0lax">blog</td>
-    <td class="tg-0lax"><a href="https://tmthyjames.github.io/" style="color:#00008e">Tim Dobbins' Grid-Searched</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">2018-12-12</td>
-    <td class="tg-0lax">jupyter notebook</td>
-    <td class="tg-0lax"><a href="http://nbviewer.jupyter.org/gist/pascal-schetelat/8382651" style="color:#00008e">E. Tufte Slope Graphs Contest</td>
-  </tr>
-</table>
-
-
-<br>
-<br>
-
-<!--  Below is the html code used to generate the References table -->
-
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border:none;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:4px 8px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:4px 8px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
-.tg .tg-whf5{font-weight:bold;font-size:18px;background-color:#c0c0c0;border-color:#000000;text-align:left;vertical-align:top}
-.tg .tg-73oq{border-color:#000000;text-align:left;vertical-align:top}
-.tg .tg-wkkj{font-weight:bold;background-color:#efefef;border-color:#000000;text-align:left;vertical-align:top}
-</style>
-<table class="tg" style="undefined;table-layout: fixed; width: 787px">
-<colgroup>
-<col style="width: 182px">
-<col style="width: 93px">
-<col style="width: 109px">
-<col style="width: 134px">
-<col style="width: 84px">
-<col style="width: 91px">
-<col style="width: 94px">
-</colgroup>
-  <tr>
-    <th class="tg-whf5" colspan="7">Data Science Cheat Sheets</th>
-  </tr>
-  <tr>
-    <td class="tg-73oq" colspan="7"><a href="https://www.datacamp.com/community/data-science-cheatsheets" style="color:#0000EE">(https://www.datacamp.com/community/data-science-cheatsheets)</td>
-  </tr>
-  <tr>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-  </tr>
-  <tr>
-    <td class="tg-wkkj" colspan="7">Python</td>
-  </tr>
-  <tr>
-    <td class="tg-73oq"><a href="/assets/cheat-sheets/DataCamp-Cheat-Sheet--Python-Basics.pdf" style="color:#00008e">Basics</td>
-    <td class="tg-73oq"><a href="/assets/cheat-sheets/DataCamp-Cheat-Sheet--Python-Data-Visualization-Bokeh.pdf" style="color:#00008e">Bokeh</td>
-    <td class="tg-73oq"><a href="/assets/cheat-sheets/DataCamp-Cheat-Sheet--Python-Importing-Data.pdf" style="color:#00008e">Importing Data</td>
-    <td class="tg-73oq"><a href="/assets/cheat-sheets/DataCamp-Cheat-Sheet--Python-Jupyter-Notebooks.pdf" style="color:#00008e">Jupyter Notebooks</td>
-    <td class="tg-73oq"><a href="/assets/cheat-sheets/DataCamp-Cheat-Sheet--Python-Keras.pdf" style="color:#00008e">Keras</td>
-    <td class="tg-73oq"><a href="/assets/cheat-sheets/DataCamp-Cheat-Sheet--Python-Matplotlib.pdf" style="color:#00008e">Matplotlib</td>
-    <td class="tg-73oq"><a href="/assets/cheat-sheets/DataCamp-Cheat-Sheet--Python-Numpy.pdf" style="color:#00008e">Numpy</td>
-  </tr>
-  <tr>
-    <td class="tg-73oq"><a href="/assets/cheat-sheets/DataCamp-Cheat-Sheet--Python-Pandas.pdf" style="color:#00008e">Pandas</td>
-    <td class="tg-73oq"><a href="/assets/cheat-sheets/DataCamp-Cheat-Sheet--Python-PySpark-SQL-Basics.pdf" style="color:#00008e">PySpark</td>
-    <td class="tg-73oq"><a href="/assets/cheat-sheets/DataCamp-Cheat-Sheet--Python-Scikit-Learn.pdf" style="color:#00008e">ScikitLearn</td>
-    <td class="tg-73oq"><a href="/assets/cheat-sheets/DataCamp-Cheat-Sheet--Python-SciPy.pdf" style="color:#00008e">SciPy</td>
-    <td class="tg-73oq"><a href="/assets/cheat-sheets/DataCamp-Cheat-Sheet--Python-Seaborn.pdf" style="color:#00008e">Seaborn</td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-  </tr>
-  <tr>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-  </tr>
-  <tr>
-    <td class="tg-wkkj" colspan="7">SQL</td>
-  </tr>
-  <tr>
-    <td class="tg-73oq"><a href="/assets/cheat-sheets/PostgreSQL-Cheat-Sheet.pdf" style="color:#00008e">SQL</td>
-    <td class="tg-73oq"><a href="/assets/cheat-sheets/SQL-cheat-sheet.pdf" style="color:#00008e">PostGres</td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-  </tr>
-  <tr>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-  </tr>
-  <tr>
-    <td class="tg-wkkj" colspan="7">R</td>
-  </tr>
-  <tr>
-    <td class="tg-73oq"><a href="/assets/cheat-sheets/DataCamp-Cheat-Sheet--R-data.table.pdf" style="color:#00008e">data.table</td>
-    <td class="tg-73oq"><a href="/assets/cheat-sheets/DataCamp-Cheat-Sheet--R-Tidyverse.pdf" style="color:#00008e">Tidyverse</td>
-    <td class="tg-73oq"><a href="/assets/cheat-sheets/DataCamp-Cheat-Sheet--R-xts.pdf" style="color:#00008e">xts</td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-  </tr>
-  <tr>
-    <td class="tg-73oq"><a href="https://www.rstudio.com/resources/cheatsheets/" style="color:#0000EE">RStudio Cheat Sheets</td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-  </tr>
-  <tr>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-    <td class="tg-73oq"></td>
-  </tr>
-  <tr>
-    <td class="tg-wkkj" colspan="7">Click to Search for Cheat Sheets for any language:</td>
-  </tr>
-  <tr>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=Bootstrap%20cheat sheet pdf" style="color:#00008e">Bootstrap</td>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=C%20cheat sheet pdf" style="color:#00008e">C</td>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=C#%20cheat sheet pdf" style="color:#00008e">C#</td>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=C++%20cheat sheet pdf" style="color:#00008e">C++</td>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=CSS%20cheat sheet pdf" style="color:#00008e">CSS</td>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=Go%20cheat sheet pdf" style="color:#00008e">Go</td>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=HTML%20cheat sheet pdf" style="color:#00008e">HTML</td>
-  </tr>
-  <tr>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=Java%20cheat sheet pdf" style="color:#00008e">Java</td>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=JavaScript%20cheat sheet pdf" style="color:#00008e">JavaScript</td>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=jQuery%20cheat sheet pdf" style="color:#00008e">jQuery</td>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=Lua%20cheat sheet pdf" style="color:#00008e">Lua</td>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=Matlab%20cheat sheet pdf" style="color:#00008e">Matlab</td>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=Objective-C%20cheat sheet pdf" style="color:#00008e">ObjectiveC</td>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=Perl%20cheat sheet pdf" style="color:#00008e">Perl</td>
-  </tr>
-  <tr>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=PHP%20cheat sheet pdf" style="color:#00008e">PHP</td>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=PHP%20cheat sheet pdf" style="color:#00008e">PHP</td>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=Python%20cheat sheet pdf" style="color:#00008e">Python</td>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=R%20cheat sheet pdf" style="color:#00008e">R</td>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=Ruby%20cheat sheet pdf" style="color:#00008e">Ruby</td>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=Rust%20cheat sheet pdf" style="color:#00008e">Rust</td>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=SAS%20cheat sheet pdf" style="color:#00008e">SAS</td>
-  </tr>
-  <tr>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=Scala%20cheat sheet pdf" style="color:#00008e">Scala</td>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=SPSS%20cheat sheet pdf" style="color:#00008e">SPSS</td>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=SQL%20cheat sheet pdf" style="color:#00008e">SQL</td>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=Swift%20cheat sheet pdf" style="color:#00008e">Swift</td>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=TypeScript%20cheat sheet pdf" style="color:#00008e">TypeScript</td>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=VBA%20cheat sheet pdf" style="color:#00008e">VBA</td>
-    <td class="tg-73oq"><a href="https://www.google.com/search?q=Visual%20Basic%20cheat sheet pdf" style="color:#00008e">Visual Basic</td>
-  </tr>
-</table>
+</font>

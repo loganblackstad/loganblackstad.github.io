@@ -4,10 +4,10 @@ main:
     url: /projects/
   - title: "Posts"
     url: /posts/
+  - title: "Links"
+    url: /links/
   - title: "Archive"
     url: /archive/
-  - title: "Archive By Year"
-    url: /archive_by_year/
   - title: "About"
     url: /about/
 
