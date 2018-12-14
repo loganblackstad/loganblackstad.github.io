@@ -18,8 +18,9 @@ You can follow this nice YouTube tutorial like I did:
 
 Here is a nice vector image of the Atlanta Sky Line:
 
-![image tooltip here](/assets/images/atl.jpg) { width: 100px; }
+![image tooltip here](/assets/images/atl.jpg = 50x) 
 
+{{ "/assets/images/atl.jpg" | absolute_url }} { width: 100px; }
 
 
 You can download a copy of my resume here:  [PDF]({{site.url}}/assets/Resume - Logan Blackstad.pdf)
