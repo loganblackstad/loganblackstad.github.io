@@ -13,12 +13,10 @@ author_profile: true
     {% capture year %}{{ post.date | date: '%Y %B' }}{% endcapture %}
     {% capture nyear %}{{ post.next.date | date: '%Y %B' }}{% endcapture %}
     {% if year != nyear %}
-      <font color="#778899"><h2>{{ post.date | date: '%Y %B' }}</h2></font>
+      <font color="#778899"><h3>{{ post.date | date: '%Y %B' }}</h3></font>
     {% endif %}
    {% endunless %}
  {% include archive-single.html %}
 {% endfor %}
 
 
-## Notebooks:
-![iPython: assignment, function argument passing, views, and copies](https://github.com/loganblackstad/nbviewer-test/blob/master/atlanta-weather-plotting.ipynb)
