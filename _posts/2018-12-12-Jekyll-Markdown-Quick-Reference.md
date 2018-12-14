@@ -92,7 +92,7 @@ A link to my [GitHub Repositories](https://github.com/loganblackstad/).
 A literal link: <https://github.com/loganblackstad/>
   
 An image, located within "/assets/images" :  
-![Coding Icon Image]({{ site.baseurl }}/assets/images/icon-sencha-test-studio-1.png "Coding Icon Image")
+![Coding Icon Image]({{ site.baseurl }}/assets/images/icon-sencha-test-studio-1.png "Coding Icon Image") { width: 20px; }
 
 
 * A bulletted list

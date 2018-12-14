@@ -18,7 +18,7 @@ You can follow this nice YouTube tutorial like I did:
 
 Here is a nice vector image of the Atlanta Sky Line:
 
-![image tooltip here](/assets/images/atl.jpg)
+![image tooltip here](/assets/images/atl.jpg) { width: 100px; }
 
 
 
