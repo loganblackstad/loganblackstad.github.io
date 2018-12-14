@@ -1,7 +1,7 @@
 ---
 layout: single
 excerpt: 
-title: "2018 12 14 Bokeh Quickstart"
+title: "Bokeh Quickstart"
 tags: [ python, jupyter notebooks ]
 --- 
 <div>

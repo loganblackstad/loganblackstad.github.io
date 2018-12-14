@@ -1,5 +1,5 @@
 ---
-title: "Creating A Simple Markdown Post"
+title: "Sample Markdown Post"
 author_profile: false
 author: Logan Blackstad
 excerpt: "Playing around with a simple markdown post."
@@ -24,3 +24,13 @@ Here is a nice vector image of the Atlanta Sky Line:
 
 You can download a copy of my resume here:  [PDF]({{site.url}}/assets/Resume - Logan Blackstad.pdf)
 
+
+
+<label class="k--label-checkbox">
+  <input type="checkbox" name="option-checkboxes" id="option-checkboxes-1" value="option-1">
+  Option One
+</label>
+<label class="k--label-checkbox">
+  <input type="checkbox" name="option-checkboxes" id="option-checkboxes-2" value="option-2">
+  Option Two
+</label>
