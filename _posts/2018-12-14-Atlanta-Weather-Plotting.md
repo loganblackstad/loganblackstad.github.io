@@ -1,5 +1,6 @@
 ---
 title: Atlanta Weather Plotting
+excerpt: "[Page in Development] I need to play with the formatting (text sizing, color, adding images, etc.)"
 date: 2018-12-13
 tags: [ python, notebook]
 ---

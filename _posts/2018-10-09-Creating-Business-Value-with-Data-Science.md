@@ -1,6 +1,7 @@
 ---
 title: Creating Business Value with Data Analytics
 date: 2018-10-09
+excerpt: "TEST - formatting is hard... stay tuned for more readable content"
 tags: [Data Analytics, Python, Analytics]
 use_math: true
 ---

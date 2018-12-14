@@ -1,8 +1,11 @@
 ---
 title: ipynb Formating Test
+excerpt: "[Page in Development] Playing with ipynb displays."
 date: 2018-12-13
 tags: [ Jekyll, IPython ]
 ---
+
+{% highlight python %}
 
 \begin{equation*}
 \mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
@@ -24,3 +27,5 @@ iris.head()
 iris.describe()
 
 sns.pairplot(x_vars=["petal-length"], y_vars=["petal-width"], data=iris, hue="class", size=10)
+
+{% endhighlight %}
