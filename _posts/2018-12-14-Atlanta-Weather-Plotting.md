@@ -142,6 +142,11 @@ pp.ylabel('Temperature (°F)')
 pp.title('\nATL Airport Temperature (min, avg, max)\n[Jan 01 2016 to Dec 01 2018]\n', fontsize=14)
 
 {% endhighlight %}
+<div>
+<img src="/assets/images/atlanta-weather-1.png"></a>
+</div>
+
+
 
 **In [None]:**
 
@@ -164,11 +169,11 @@ plot_smoothed(all_days, dfa['TMAX'], 20)
 plot_smoothed(all_days, dfa['TMIN'], 20)
 {% endhighlight %}
 
-**In [None]:**
+<div>
+<img src="/assets/images/atlanta-weather-2.png"></a>
+</div>
 
-{% highlight python %}
-# 
-{% endhighlight %}
+
 
 
 </span>
