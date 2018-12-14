@@ -1,10 +1,10 @@
 ---
-layout: post
-title: "atlanta-weather-plotting"
-tags:
-    - python
-    - notebook
+title: Atlanta Weather Plotting 3
+date: 2018-12-13
+tags: [ python, notebook]
 ---
+
+
 **In [None]:**
 
 {% highlight python %}
