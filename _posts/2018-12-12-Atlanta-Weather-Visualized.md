@@ -31,3 +31,5 @@ Vizualization:
 * Label line graphs with:  title, axis, legend, coloring  
 * Embed nbViewer Code in markdown/html  
 
+
+<script src="https://gist.github.com/loganblackstad/42ed546ccd4e1cfef3857bec7cbf2098.js"></script>
