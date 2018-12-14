@@ -33,8 +33,3 @@ Vizualization:
 
 
 <script src="https://gist.github.com/loganblackstad/42ed546ccd4e1cfef3857bec7cbf2098.js"></script>
-
-
-{::nomarkdown}
-{% jupyter_notebook "atlanta-weather-plotting.ipynb" %}
-{:/nomarkdown}
