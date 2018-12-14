@@ -188,6 +188,7 @@ gems:
   - jekyll-feed
   - jemoji
   - jekyll-archives
+  - jekyll-jupyter-notebook
 
 # mimic GitHub Pages with --safe
 whitelist:
