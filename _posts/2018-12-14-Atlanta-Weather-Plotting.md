@@ -5,7 +5,7 @@ date: 2018-12-13
 tags: [ python, notebook]
 ---
 
-<span style="font-family:Fontawesome; font-size:1.0em;">
+<span style="font-family:Fontawesome; font-size:0.5em;">
 
 **In [1]:**
 
