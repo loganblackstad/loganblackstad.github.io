@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 
-<font size="-2">
+<font size="-1">
 
 <ul class="tags-box">
 
@@ -20,10 +20,12 @@ author_profile: true
 {% endunless %}
 <id="{{ year }}">{{ year }}
 {% endunless %}
+
+<br>
 <time datetime="{{ post.date | date:"%Y-%m-%d" }}">
 {{ post.date | date:"%Y-%m-%d" }}
 </time>
-&  ; <a href="{{ site.baseurl }}{{ post.url }}" style="color:#00008e">{{ post.title }}</a><br />
+   ; <a href="{{ site.baseurl }}{{ post.url }}" style="color:#00008e">{{ post.title }}</a><br />
 {% endfor %}
 
 {% else %}
