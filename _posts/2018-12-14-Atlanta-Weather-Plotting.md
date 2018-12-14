@@ -5,7 +5,6 @@ date: 2018-12-13
 tags: [ python, notebook]
 ---
 
-<span style="font-family:Fontawesome; font-size:0.5em;">
 
 **In [1]:**
 
@@ -143,7 +142,7 @@ pp.title('\nATL Airport Temperature (min, avg, max)\n[Jan 01 2016 to Dec 01 2018
 
 {% endhighlight %}
 <div>
-<img src="/assets/images/atlanta-weather-1.png"></a>
+<a><img src="/assets/images/atlanta-weather-1.png"></a>
 </div>
 
 
@@ -170,10 +169,8 @@ plot_smoothed(all_days, dfa['TMIN'], 20)
 {% endhighlight %}
 
 <div>
-<img src="/assets/images/atlanta-weather-2.png"></a>
+<a><img src="/assets/images/atlanta-weather-2.png"></a>
 </div>
 
 
 
-
-</span>
