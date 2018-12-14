@@ -30,5 +30,5 @@ def path2support(path):
 c.MarkdownExporter.filters = {'path2support': path2support}
 
 if f:
-    c.NbConvertApp.output_base = f.lower().replace(' ', '-')
+    c.NbConvertApp.output_base = f.replace(' ', '-')
     c.FilesWriter.build_directory = 'C:/Users/Logan/Desktop/cs/GitHub/loganblackstad.github.io/_posts'  # point this to your build directory

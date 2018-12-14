@@ -1,5 +1,5 @@
 cd ../..
 cd cs\GitHub\loganblackstad.github.io\_posts
 
-ipython nbconvert --to markdown <notebook>.ipynb --config jekyll.py
+ipython nbconvert --to markdown "<notebook>.ipynb" --config ../jekyll.py
 

@@ -2,18 +2,16 @@
 
 {%- block header -%}
 ---
-layout: post
+layout: single
+excerpt: 
 title: "{{resources['metadata']['name']}}"
-tags:
-    - python
-    - notebook
+tags: [ python, jupyter notebooks ]
 ---
 {%- endblock header -%}
 
 {% block in_prompt %}
 **In [{{ cell.execution_count }}]:**
 {% endblock in_prompt %}
-
 {% block input %}
 {{ '{% highlight python %}' }}
 {{ cell.source }}
