@@ -20,6 +20,9 @@ Here is a nice vector image of the Atlanta Sky Line:
 
 ![atlanta skyline](/assets/images/atl.jpg) 
 
+<img src="/thumb-200x200.jpg" srcset="/thumb-200x200.jpg 1x, /thumb-400x400.jpg 2x, /thumb-500x500.jpg 3x">
+
+
 {{ "/assets/images/atl.jpg" }} { width: 100px; }
 
 
