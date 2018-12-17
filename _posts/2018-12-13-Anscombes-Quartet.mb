@@ -23,4 +23,4 @@ sns.lmplot(x="x", y="y", col="dataset", hue="dataset", data=df,
 {% endhighlight %}
 
 
-<img src="https://loganblackstad.github.io/assets/images/anscombes_quartet.png" width="300">
+<img src="https://loganblackstad.github.io/assets/images/anscombes_quartet.png">
