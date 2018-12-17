@@ -27,6 +27,9 @@ easily. We also import the `show` and `ouptut_notebook` functions from
 `bokeh.io` &mdash; these let us display our results inline in the notebook. 
 
 <span style="color:"rgb(56,63,155)";">In [1]:</span>
+
+<p style="color:rgb(0,0,200)">This is a paragraph.</p>
+
 {% highlight python %}
 from bokeh.plotting import figure 
 from bokeh.io import output_notebook, show
