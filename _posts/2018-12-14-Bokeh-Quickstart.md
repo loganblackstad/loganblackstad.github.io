@@ -26,8 +26,7 @@ ide/plotting.html), which will let us create all sorts of interesting plots
 easily. We also import the `show` and `ouptut_notebook` functions from
 `bokeh.io` &mdash; these let us display our results inline in the notebook. 
 
-**In [1]:**
-
+<font color=#333399>In [1]:</font>
 {% highlight python %}
 from bokeh.plotting import figure 
 from bokeh.io import output_notebook, show
