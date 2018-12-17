@@ -26,9 +26,9 @@ ide/plotting.html), which will let us create all sorts of interesting plots
 easily. We also import the `show` and `ouptut_notebook` functions from
 `bokeh.io` &mdash; these let us display our results inline in the notebook. 
 
-<span style="color:"rgb(56,63,155)";">In [1]:</span>
+<span style="color:rgb(56,63,155)">In [1]:</span>
 
-<p style="color:rgb(0,0,200)">This is a paragraph.</p>
+<p style="color:rgb(56,63,155)">In [1]:</p>
 
 {% highlight python %}
 from bokeh.plotting import figure 
@@ -41,7 +41,7 @@ into the HTML of the notebook itself.
 (Bokeh can output straight to HTML files, or use a server, which we'll
 look at later.) 
 
-<span style="color:"rgb(56,63,155)";">In [2]:</span>
+<p style="color:rgb(56,63,155)">In [2]:</p>
 {% highlight python %}
 output_notebook()
 {% endhighlight %}
