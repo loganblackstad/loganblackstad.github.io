@@ -1,7 +1,7 @@
 ---
 title: Atlanta Weather Visualized
 excerpt: "[Page in Development] I need to play with the formatting (text sizing, color, adding images, etc.)"
-date: 2018-11-14
+date: 2018-10-22
 tags: [ python, notebook, Atlanta]
 ---
 
