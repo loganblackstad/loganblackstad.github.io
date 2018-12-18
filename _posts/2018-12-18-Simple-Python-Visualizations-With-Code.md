@@ -20,8 +20,7 @@ Matplotlib is a popular Python library that can be used to create your Data Visu
 
 
 
-
-### Scatter Plots
+## Scatter Plots
 
 Scatter plots are great for showing the relationship between two variables since you can directly see the raw distribution of the data. You can also view this relationship for different groups of data simple by color coding the groups: 
 
@@ -39,7 +38,7 @@ Scatter Plot Code:
 
 
 
-### Line Plots
+## Line Plots
 Line plots are best used when you can clearly see that one variable varies greatly with another i.e they have a high covariance. Lets take a look at the figure below to illustrate. We can clearly see that there is a large amount of variation in the percentages over time for all majors. Plotting these with a scatter plot would be extremely cluttered and quite messy, making it hard to really understand and see what’s going on. Line plots are perfect for this situation because they basically give us a quick summary of the covariance of the two variables (percentage and time). Again, we can also use grouping by color encoding.
 
 **Example line plot**
@@ -51,11 +50,13 @@ Line Plot Code:
 
 
 
-Histograms
+## Histograms
 Histograms are useful for viewing (or really discovering)the distribution of data points. Check out the histogram below where we plot the frequency vs IQ histogram. We can clearly see the concentration towards the center and what the median is. We can also see that it follows a Gaussian distribution. Using the bars (rather than scatter points, for example) really gives us a clearly visualization of the relative difference between the frequency of each bin. The use of bins (discretization) really helps us see the “bigger picture” where as if we use all of the data points without discrete bins, there would probably be a lot of noise in the visualization, making it hard to see what is really going on.
 
 
 Histogram example
+
+
 The code for the histogram in Matplotlib is shown below. There are two parameters to take note of. Firstly, the n_bins parameters controls how many discrete bins we want for our histogram. More bins will give us finer information but may also introduce noise and take us away from the bigger picture; on the other hand, less bins gives us a more “birds eye view” and a bigger picture of what’s going on without the finer details. Secondly, the cumulative parameter is a boolean which allows us to select whether our histogram is cumulative or not. This is basically selecting either the Probability Density Function (PDF) or the Cumulative Density Function (CDF).
 
 
