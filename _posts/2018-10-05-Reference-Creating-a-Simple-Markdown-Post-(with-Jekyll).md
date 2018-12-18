@@ -11,6 +11,9 @@ comments: true
 published: true
 ---
 
+
+<img src="https://loganblackstad.github.io/assets/images/jekyll_github.png" >  
+
 The Jekyll webpage has many great, simple resources for setting up you GitHub Page using Jekyll:  
 [https://jekyllrb.com/docs/posts/](https://jekyllrb.com/docs/posts/)
 
