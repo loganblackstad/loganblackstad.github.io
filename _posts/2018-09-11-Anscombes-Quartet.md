@@ -1,11 +1,11 @@
 ---
 layout: single
-title: Anscombe’s Quartet
+title: Anscombe’s Quartet, and Why Summary Statistics Don’t Tell the Whole Story
 excerpt: "Anscombe's quartet comprises four datasets that have nearly identical simple descriptive statistics, yet appear very different when graphed. Each dataset consists of eleven (x,y) points."
 date: 2018-09-11
 tags: [ anscombe, data statistics, data stories ]
 ---
-<h3>Anscombe’s Quartet, and Why Summary Statistics Don’t Tell the Whole Story</h3>
+
 Anscombe's quartet comprises four datasets that have nearly identical simple descriptive statistics, yet appear very different when graphed. Each dataset consists of eleven (x,y) points. They were constructed in 1973 by the statistician Francis Anscombe to demonstrate both the importance of graphing data before analyzing it and the effect of outliers on statistical properties. He described the article as being intended to counter the impression among statisticians that "numerical calculations are exact, but graphs are rough."
 
 
