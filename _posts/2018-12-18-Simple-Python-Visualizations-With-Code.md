@@ -29,8 +29,8 @@ Scatter plots are great for showing the relationship between two variables since
 
 Want to visualize the relationship between three variables? No problemo! Just use another parameters, like point size, to encode that third variable:
 
-<center>**Scatter plot with color groupings and size encoding for the third variable of country size**</center>
-<center><img src="/assets/images/easy-plotting-3.png" width="70%"></center>
+**Scatter plot with color groupings and size encoding for the third variable of country size**
+<center><img src="/assets/images/easy-plotting-3.png" width="70%"></center>  
 
 
 Now for the code. We first import Matplotlib’s pyplot with the alias “plt”. To create a new plot figure we call `plt.subplots()` . We pass the x-axis and y-axis data to the function and then pass those to `ax.scatter()` to plot the scatter plot. We can also set the point size, point color, and alpha transparency. You can even set the y-axis to have a logarithmic scale. The title and axis labels are then set specifically for the figure. That’s an easy to use function that creates a scatter plot end to end!
@@ -45,6 +45,7 @@ Line plots are best used when you can clearly see that one variable varies great
 
 **Example line plot**
 <center><img src="/assets/images/easy-plotting-4.png" width="80%"></center>  
+<br>
 
 
 _Line Plot Code:_
@@ -68,7 +69,7 @@ _Histogram Code:_
 Imagine we want to compare the distribution of two variables in our data. One might think that you’d have to make two separate histograms and put them side-by-side to compare them. But, there’s actually a better way: we can overlay the histograms with varying transparency. Check out the figure below. The Uniform distribution is set to have a transparency of 0.5 so that we can see what’s behind it. This allows use to directly view the two distributions on the same figure.  
 
 **Overlaid Histogram**  
-<center><img src="/assets/images/easy-plotting-5.png" width="70%"></center>
+<center><img src="/assets/images/easy-plotting-6.png" width="70%"></center>
 
 
 There are a few things to set up in code for the overlaid histograms. First, we set the horizontal range to accommodate both variable distributions. According to this range and the desired number of bins we can actually computer the width of each bin. Finally, we plot the two histograms on the same plot, with one of them being slightly more transparent.
