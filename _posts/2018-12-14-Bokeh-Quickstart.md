@@ -28,7 +28,7 @@ easily. We also import the `show` and `ouptut_notebook` functions from
 
 <!---  <span style="color:rgb(56,63,155)">In [1]:</span>  --->
 
-<p style="font-family:Consolas; font-size:50%; color:rgb(56,63,155); ">In [11]:</p>
+<p style="font-family:Consolas; font-size:70%; color:rgb(56,63,155); ">In [1]:</p>
 
 {% highlight python %}
 from bokeh.plotting import figure 
@@ -41,7 +41,7 @@ into the HTML of the notebook itself.
 (Bokeh can output straight to HTML files, or use a server, which we'll
 look at later.) 
 
-<p style="color:rgb(56,63,155)">In [2]:</p>
+<p style="font-family:Consolas; font-size:70%; color:rgb(56,63,155); ">In [2]:</p>
 {% highlight python %}
 output_notebook()
 {% endhighlight %}
@@ -58,7 +58,7 @@ output_notebook()
  
 Next, we'll import NumPy and create some simple data. 
 
-**In [3]:**
+<p style="font-family:Consolas; font-size:70%; color:rgb(56,63,155); ">In [3]:</p>
 
 {% highlight python %}
 from numpy import cos, linspace
@@ -78,7 +78,7 @@ We can immediately interact with the plot:
 The toolbar below is the default one that is available for all plots. It can be
 configured further via the `tools` keyword argument. 
 
-**In [4]:**
+<p style="font-family:Consolas; font-size:70%; color:rgb(56,63,155); ">In [4]:</p>
 
 {% highlight python %}
 p = figure(width=500, height=500)
@@ -112,7 +112,7 @@ Bokeh ships with a small set of interesting "sample data" in the
 `bokeh.sampledata` package.  We'll load up some historical automobile mileage
 data, which is returned as a Pandas `DataFrame`. 
 
-**In [5]:**
+<p style="font-family:Consolas; font-size:70%; color:rgb(56,63,155); ">In [5]:</p>
 
 {% highlight python %}
 from bokeh.sampledata.autompg import autompg
@@ -128,7 +128,7 @@ japanese = autompg[autompg["origin"]==3]
  
 For each year, we want to plot the distribution of MPG within that year. 
 
-**In [6]:**
+<p style="font-family:Consolas; font-size:70%; color:rgb(56,63,155); ">In [6]:</p>
 
 {% highlight python %}
 p = figure(title="MPG by Year (Japan and US)")
@@ -171,7 +171,7 @@ To link plots together at a data level, we can explicitly wrap the data in a
 We can use a "select" tool to select points on one plot, and the linked points
 on the other plots will highlight. 
 
-**In [7]:**
+<p style="font-family:Consolas; font-size:70%; color:rgb(56,63,155); ">In [7]:</p>
 
 {% highlight python %}
 from bokeh.models import ColumnDataSource
@@ -222,7 +222,7 @@ into its own standalone file.
 Now when we call `show()`, a new browser tab is also opened with the plot. If we
 just wanted to save the file, we would use `save()` instead. 
 
-**In [8]:**
+<p style="font-family:Consolas; font-size:70%; color:rgb(56,63,155); ">In [8]:</p>
 
 {% highlight python %}
 from bokeh.plotting import output_file
@@ -273,7 +273,7 @@ The cell below shows a simple deployed Bokeh application from
 https://demo.bokehplots.com embedded in an IFrame. Scrub the sliders or change
 the title to see the plot update. 
 
-**In [9]:**
+<p style="font-family:Consolas; font-size:70%; color:rgb(56,63,155); ">In [9]:</p>
 
 {% highlight python %}
 from IPython.display import IFrame
@@ -352,8 +352,4 @@ and on [Youtube](https://www.youtube.com/c/Bokehplots)!
 
 <img src="/assets/images/bokeh-transparent.png" width="64px" height="64px"> 
 
-**In [None]:**
 
-{% highlight python %}
-
-{% endhighlight %}
