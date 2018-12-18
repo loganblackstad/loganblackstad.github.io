@@ -15,8 +15,10 @@ Anscombe's quartet comprises four datasets that have nearly identical simple des
 _Scatter Plot Code:_
 <script src="https://gist.github.com/loganblackstad/16ad035daf360cdeb8e092951a7ed97f.js"></script>
 
+<br>
 <img src="https://loganblackstad.github.io/assets/images/anscombes_quartet.png">
 
 ### References:
 * https://seaborn.pydata.org/_downloads/anscombes_quartet.py
 * https://en.wikipedia.org/wiki/Anscombe%27s_quartet
+
