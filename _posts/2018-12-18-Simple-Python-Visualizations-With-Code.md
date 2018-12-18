@@ -17,7 +17,6 @@ Matplotlib is a popular Python library that can be used to create your Data Visu
 **A chart for selecting the proper data visualization technique for a given situation**
 <img src="/assets/images/easy-plotting-1.jpeg">
 
-Exploratory Data Analysis (EDA) 
 
 
 
@@ -35,6 +34,7 @@ Want to visualize the relationship between three variables? No problemo! Just us
 
 Now for the code. We first import Matplotlib’s pyplot with the alias “plt”. To create a new plot figure we call plt.subplots() . We pass the x-axis and y-axis data to the function and then pass those to ax.scatter() to plot the scatter plot. We can also set the point size, point color, and alpha transparency. You can even set the y-axis to have a logarithmic scale. The title and axis labels are then set specifically for the figure. That’s an easy to use function that creates a scatter plot end to end!
 
+Scatter Plot Code:
 <script src="https://gist.github.com/loganblackstad/a8f219a5910f47c0d324a72f3158a8d7.js"></script>
 
 
@@ -46,6 +46,7 @@ Line plots are best used when you can clearly see that one variable varies great
 <img src="/assets/images/easy-plotting-4.png">
 
 
+Line Plot Code:
 <script src="https://gist.github.com/loganblackstad/f903720bacd6a17dd3d1941599f62653.js"></script>
 
 
