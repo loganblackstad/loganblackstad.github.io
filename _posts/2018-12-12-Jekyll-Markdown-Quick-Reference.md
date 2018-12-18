@@ -17,11 +17,11 @@ This is a demo of some styled elements:
 
 This is a paragraph, it's surrounded by whitespace. Next up are some headers, they're heavily influenced by GitHub's markdown style.
 
-## Header 2 (H1 is reserved for post titles)##
+## Header 2 (H1 is reserved for post titles)
 ### Header 3
 #### Header 4
  
-A link to my [GitHub Repositories](https://github.com/loganblackstad/). 
+An embedded link to my [GitHub Repositories](https://github.com/loganblackstad/). 
 A literal link: <https://github.com/loganblackstad/>
   
 An image, located within "/assets/images" :
@@ -82,17 +82,17 @@ This is a demo of some styled elements:
 
 This is a paragraph, it's surrounded by whitespace. Next up are some headers, they're heavily influenced by GitHub's markdown style.
 
-## Header 2 (H1 is reserved for post titles)##
+## Header 2 (H1 is reserved for post titles)
 ### Header 3
 #### Header 4
 
 <br>
 <br>
-A link to my [GitHub Repositories](https://github.com/loganblackstad/).  
+An embedded link to my [GitHub Repositories](https://github.com/loganblackstad/).  
 A literal link: <https://github.com/loganblackstad/>
   
 An image, located within "/assets/images" :  
-![Coding Icon Image]({{ site.baseurl }}/assets/images/icon-sencha-test-studio-1.png "Coding Icon Image" {width=30px})
+![Coding Icon Image]({{ site.baseurl }}/assets/images/icon-sencha-test-studio-1.png "Coding Icon Image"; {width=30px})
 _add 2 trailing whitespaces after the text for the image to appear on the next line_
 
 * A bulletted list
