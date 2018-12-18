@@ -1,13 +1,15 @@
 # main links
 main:
-  - title: "Projects"
-    url: /projects/
+
+#  - title: "Projects"
+#    url: /projects/
+
   - title: "Posts"
     url: /posts/
-  - title: "Links"
-    url: /links/
   - title: "Archive"
     url: /archive/
+  - title: "Links"
+    url: /links/
   - title: "About"
     url: /about/
 
