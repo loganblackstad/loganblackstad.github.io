@@ -8,6 +8,8 @@ tags: [ python, jupyter notebooks ]
 <img src="/assets/images/easy-plotting-header.png">
 </div>
 
+<br>
+
 # Simple Data Visualizations in Python with Code
 
 Creating visualizations of your data helps make your analysis clearer and easier to understand, especially with larger, high dimensional datasets. At the end of your project, it’s important to be able to present your final results in a clear, concise, and compelling manner that your audience (esp. non-technical clients) can understand.
