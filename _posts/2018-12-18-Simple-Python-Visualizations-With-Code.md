@@ -44,7 +44,7 @@ _Scatter Plot Code:_
 Line plots are best used when you can clearly see that one variable varies greatly with another i.e they have a high covariance. Lets take a look at the figure below to illustrate. We can clearly see that there is a large amount of variation in the percentages over time for all majors. Plotting these with a scatter plot would be extremely cluttered and quite messy, making it hard to really understand and see what’s going on. Line plots are perfect for this situation because they basically give us a quick summary of the covariance of the two variables (percentage and time). Again, we can also use grouping by color encoding.
 
 **Example line plot**
-<img src="/assets/images/easy-plotting-4.png">
+<center><img src="/assets/images/easy-plotting-4.png"></center>
 
 
 _Line Plot Code:_
