@@ -82,20 +82,19 @@ Bar plots are most effective when you are trying to visualize categorical data t
 
 The regular barplot is in the first figure below. In the `barplot()` function, `x_data` represents the tickers on the x-axis and `y_data` represents the bar height on the y-axis. The error bar is an extra line centered on each bar that can be drawn to show the standard deviation.
 
-**Regular Bar Plot**
+**Regular Bar Plot**  
 <img src="/assets/images/easy-plotting-7.png">
 
 
 Grouped bar plots allow us to compare multiple categorical variables. Check out the second bar plot below. The first variable we are comparing is how the scores vary by group (groups G1, G2, ... etc). We are also comparing the genders themselves with the color codes. Taking a look at the code, the `y_data_list` variable is now actually a list of lists, where each sublist represents a different group. We then loop through each group, and for each group we draw the bar for each tick on the x-axis; each group is also color coded.
 
-**Grouped Bar Plot**
-
+**Grouped Bar Plot**  
 <img src="/assets/images/easy-plotting-8.png">
 
 
 Stacked bar plots are great for visualizing the categorical make-up of different variables. In the stacked bar plot figure below we are comparing the server load from day-to-day. With the color coded stacks, we can easily see and understand which servers are worked the most on each day and how the loads compare to the other servers on all days. The code for this follows the same style as the grouped bar plot. We loop through each group, except this time we draw the new bars on top of the old ones rather than beside them.
 
-**Stacked Bar Plot**
+**Stacked Bar Plot**  
 <img src="/assets/images/easy-plotting-9.png">
 
 _Bar Plot Code_
@@ -129,3 +128,5 @@ There are your 5 quick and easy data visualizations using Matplotlib. Abstractin
 
 <img src="/assets/images/easy-plotting-1.jpeg">
 
+----
+----
