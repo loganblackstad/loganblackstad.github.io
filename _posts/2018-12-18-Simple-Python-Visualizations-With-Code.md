@@ -1,7 +1,7 @@
 ---
 layout: single
 excerpt: "Data Visualization is a big part of a data scientist’s jobs. Creating visualizations helps make your analysis clearer and easier to understand, especially with larger, high dimensional datasets."
-title: "Data Visualizations in Python with Code"
+title: "Data Visualizations in Python (with Code!)"
 tags: [ python, jupyter notebooks ]
 --- 
 <div>
@@ -10,13 +10,11 @@ tags: [ python, jupyter notebooks ]
 
 <br>
 
-# Simple Data Visualizations in Python with Code
-
 Creating visualizations of your data helps make your analysis clearer and easier to understand, especially with larger, high dimensional datasets. At the end of your project, it’s important to be able to present your final results in a clear, concise, and compelling manner that your audience (esp. non-technical clients) can understand.
 
 Matplotlib is a popular Python library that can be used to create your Data Visualizations quite easily. However, setting up the data, parameters, figures, and plotting can get quite messy and tedious to do every time you do a new project. In this blog post, we’re going to look at 5 data visualizations and write some quick and easy functions for them with Python’s Matplotlib. 
 
-**A chart for selecting the proper data visualization technique for a given situation:**
+**A chart for selecting the proper data visualization technique for a given situation**
 <img src="/assets/images/easy-plotting-1.jpeg">
 
 Exploratory Data Analysis (EDA) 
@@ -26,13 +24,13 @@ Exploratory Data Analysis (EDA)
 
 ### Scatter Plots
 
-Scatter plots are great for showing the relationship between two variables since you can directly see the raw distribution of the data. You can also view this relationship for different groups of data simple by colour coding the groups: 
+Scatter plots are great for showing the relationship between two variables since you can directly see the raw distribution of the data. You can also view this relationship for different groups of data simple by color coding the groups: 
 
 <img src="/assets/images/easy-plotting-2.png">
 
 Want to visualize the relationship between three variables? No problemo! Just use another parameters, like point size, to encode that third variable:
 
-**Scatter plot with colour groupings and size encoding for the third variable of country size:**
+**Scatter plot with color groupings and size encoding for the third variable of country size**
 <img src="/assets/images/easy-plotting-3.png">
 
 Now for the code. We first import Matplotlib’s pyplot with the alias “plt”. To create a new plot figure we call plt.subplots() . We pass the x-axis and y-axis data to the function and then pass those to ax.scatter() to plot the scatter plot. We can also set the point size, point color, and alpha transparency. You can even set the y-axis to have a logarithmic scale. The title and axis labels are then set specifically for the figure. That’s an easy to use function that creates a scatter plot end to end!
@@ -42,7 +40,7 @@ Now for the code. We first import Matplotlib’s pyplot with the alias “plt”
 
 
 ### Line Plots
-Line plots are best used when you can clearly see that one variable varies greatly with another i.e they have a high covariance. Lets take a look at the figure below to illustrate. We can clearly see that there is a large amount of variation in the percentages over time for all majors. Plotting these with a scatter plot would be extremely cluttered and quite messy, making it hard to really understand and see what’s going on. Line plots are perfect for this situation because they basically give us a quick summary of the covariance of the two variables (percentage and time). Again, we can also use grouping by colour encoding.
+Line plots are best used when you can clearly see that one variable varies greatly with another i.e they have a high covariance. Lets take a look at the figure below to illustrate. We can clearly see that there is a large amount of variation in the percentages over time for all majors. Plotting these with a scatter plot would be extremely cluttered and quite messy, making it hard to really understand and see what’s going on. Line plots are perfect for this situation because they basically give us a quick summary of the covariance of the two variables (percentage and time). Again, we can also use grouping by color encoding.
 
 **Example line plot**
 <img src="/assets/images/easy-plotting-4.png">
@@ -68,13 +66,13 @@ There are a few things to set up in code for the overlaid histograms. First, we 
 
 
 Bar Plots
-Bar plots are most effective when you are trying to visualize categorical data that has few (probably < 10) categories. If we have too many categories then the bars will be very cluttered in the figure and hard to understand. They’re nice for categorical data because you can easily see the difference between the categories based on the size of the bar (i.e magnitude); categories are also easily divided and colour coded too. There are 3 different types of bar plots we’re going to look at: regular, grouped, and stacked. Check out the code below the figures as we go along.
+Bar plots are most effective when you are trying to visualize categorical data that has few (probably < 10) categories. If we have too many categories then the bars will be very cluttered in the figure and hard to understand. They’re nice for categorical data because you can easily see the difference between the categories based on the size of the bar (i.e magnitude); categories are also easily divided and color coded too. There are 3 different types of bar plots we’re going to look at: regular, grouped, and stacked. Check out the code below the figures as we go along.
 
 The regular barplot is in the first figure below. In the barplot() function, x_data represents the tickers on the x-axis and y_data represents the bar height on the y-axis. The error bar is an extra line centered on each bar that can be drawn to show the standard deviation.
 
-Grouped bar plots allow us to compare multiple categorical variables. Check out the second bar plot below. The first variable we are comparing is how the scores vary by group (groups G1, G2, ... etc). We are also comparing the genders themselves with the colour codes. Taking a look at the code, the y_data_list variable is now actually a list of lists, where each sublist represents a different group. We then loop through each group, and for each group we draw the bar for each tick on the x-axis; each group is also colour coded.
+Grouped bar plots allow us to compare multiple categorical variables. Check out the second bar plot below. The first variable we are comparing is how the scores vary by group (groups G1, G2, ... etc). We are also comparing the genders themselves with the color codes. Taking a look at the code, the y_data_list variable is now actually a list of lists, where each sublist represents a different group. We then loop through each group, and for each group we draw the bar for each tick on the x-axis; each group is also color coded.
 
-Stacked bar plots are great for visualizing the categorical make-up of different variables. In the stacked bar plot figure below we are comparing the server load from day-to-day. With the colour coded stacks, we can easily see and understand which servers are worked the most on each day and how the loads compare to the other servers on all days. The code for this follows the same style as the grouped bar plot. We loop through each group, except this time we draw the new bars on top of the old ones rather than beside them.
+Stacked bar plots are great for visualizing the categorical make-up of different variables. In the stacked bar plot figure below we are comparing the server load from day-to-day. With the color coded stacks, we can easily see and understand which servers are worked the most on each day and how the loads compare to the other servers on all days. The code for this follows the same style as the grouped bar plot. We loop through each group, except this time we draw the new bars on top of the old ones rather than beside them.
 
 
 Regular Bar Plot
