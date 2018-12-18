@@ -1,7 +1,7 @@
 ---
 layout: single
+title: "Data Visualizations in Python (with matplotlib)"
 excerpt: "Data Visualization is a big part of a data scientist’s jobs. Creating visualizations helps make your analysis clearer and easier to understand, especially with larger, high dimensional datasets."
-title: "Data Visualizations in Python (with Code!)"
 tags: [ python, jupyter notebooks ]
 --- 
 <div>
