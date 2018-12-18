@@ -26,8 +26,8 @@ A literal link: <https://github.com/loganblackstad/>
   
 An image, located within "/assets/images" :  
 ![Coding Icon Image]({{ site.baseurl }}/assets/images/icon-sencha-test-studio-1.png "Coding Icon Image" width="20")  
-<img src="https://loganblackstad.github.io/assets/images/icon-sencha-test-studio-1.png" alt="Coding Icon Image" width="25px">
-<img src="https://loganblackstad.github.io/assets/images/icon-sencha-test-studio-1.png" alt="Coding Icon Image" width="50%" height="50%">
+<img src="https://loganblackstad.github.io/assets/images/icon-sencha-test-studio-1.png" alt="Coding Icon Image" width="25px">  
+<img src="https://loganblackstad.github.io/assets/images/icon-sencha-test-studio-1.png" alt="Coding Icon Image" width="50%" height="50%">  
 _add 2 trailing whitespaces after the text for the image to appear on the next line_
 
 * A bulletted list
@@ -95,8 +95,8 @@ A literal link: <https://github.com/loganblackstad/>
   
 An image, located within "/assets/images" :  
 ![Coding Icon Image]({{ site.baseurl }}/assets/images/icon-sencha-test-studio-1.png "Coding Icon Image" width="20")  
-<img src="https://loganblackstad.github.io/assets/images/icon-sencha-test-studio-1.png" alt="Coding Icon Image" width="25px">
-<img src="https://loganblackstad.github.io/assets/images/icon-sencha-test-studio-1.png" alt="Coding Icon Image" width="50%" height="50%">
+<img src="https://loganblackstad.github.io/assets/images/icon-sencha-test-studio-1.png" alt="Coding Icon Image" width="25px">  
+<img src="https://loganblackstad.github.io/assets/images/icon-sencha-test-studio-1.png" alt="Coding Icon Image" width="50%" height="50%">  
 _add 2 trailing whitespaces after the text for the image to appear on the next line_
 
 * A bulletted list
