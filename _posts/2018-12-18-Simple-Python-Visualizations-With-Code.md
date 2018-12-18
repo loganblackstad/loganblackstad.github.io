@@ -89,6 +89,7 @@ The regular barplot is in the first figure below. In the `barplot()` function, `
 Grouped bar plots allow us to compare multiple categorical variables. Check out the second bar plot below. The first variable we are comparing is how the scores vary by group (groups G1, G2, ... etc). We are also comparing the genders themselves with the color codes. Taking a look at the code, the `y_data_list` variable is now actually a list of lists, where each sublist represents a different group. We then loop through each group, and for each group we draw the bar for each tick on the x-axis; each group is also color coded.
 
 **Grouped Bar Plot**
+
 <img src="/assets/images/easy-plotting-8.png">
 
 
