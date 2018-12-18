@@ -18,6 +18,11 @@
   }
 }
 
+.gist-data{
+    height:250px; // Any height
+    overflow-y: visible;
+}
+
 .page {
   @include breakpoint($large) {
     @include span(10 of 12 last);
