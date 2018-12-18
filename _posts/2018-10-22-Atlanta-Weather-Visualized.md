@@ -26,7 +26,7 @@ import os
 from ggplot import *
 {% endhighlight %}
 
-<pre>
+
 Next, we'll get some weather data:
 
 I queried weather data from NOAA because it was free:
@@ -39,7 +39,7 @@ dates = 01/01/2016 to 12/01/2018
 NOAA sends an email file containing the csv of weather data to the email youy specify.
 
 I then imported atlanta-weather.csv as a pandas DataFrame. (Important: the .csv file has to be in the same directory as your jupyter file.) 
-</pre>
+
 
 <p style="font-family:Consolas; font-size:70%; color:rgb(56,63,155); ">In [2]:</p>
 {% highlight python %}
