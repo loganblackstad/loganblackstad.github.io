@@ -28,7 +28,7 @@ easily. We also import the `show` and `ouptut_notebook` functions from
 
 <!---  <span style="color:rgb(56,63,155)">In [1]:</span>  --->
 
-<p style="font-family:Consolas; font-size:75%; color:rgb(56,63,155); ">In [1]:</p>
+<p style="font-family:Consolas; font-size:50%; color:rgb(56,63,155); ">In [11]:</p>
 
 {% highlight python %}
 from bokeh.plotting import figure 
