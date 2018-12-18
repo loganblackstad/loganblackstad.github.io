@@ -13,6 +13,7 @@ _Anscombe’s Quartet Visualization Python Code:_
 <script src="https://gist.github.com/loganblackstad/16ad035daf360cdeb8e092951a7ed97f.js"></script>
 
 <br>
+<p style="font-family:Consolas; font-size:70%; color:rgb(209,51,35); ">Out []:</p>
 <img src="https://loganblackstad.github.io/assets/images/anscombes_quartet.png">
 
 ### References:
