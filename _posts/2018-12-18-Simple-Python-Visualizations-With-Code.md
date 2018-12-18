@@ -109,7 +109,7 @@ That’s where boxplots come in. Box plots give us all of the information above.
 
 Since the box plot is drawn for each group/variable it’s quite easy to set up. The `x_data` is a list of the groups/variables. The Matplotlib function `boxplot()` makes a box plot for each column of the y_data or each vector in sequence `y_data`; thus each value in `x_data` corresponds to a column/vector in `y_data`. All we have to set then are the aesthetics of the plot.
 
-<center><img src="/assets/images/easy-plotting-10.png" width="70%"></center>
+<center><img src="/assets/images/easy-plotting-10.png" width="70%"></center>  
 
 
 _Box Plot Code_
