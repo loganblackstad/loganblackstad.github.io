@@ -24,7 +24,11 @@ Matplotlib is a popular Python library that can be used to create your Data Visu
 ## Scatter Plots
 
 Scatter plots are great for showing the relationship between two variables since you can directly see the raw distribution of the data. You can also view this relationship for different groups of data simple by color coding the groups:   
-<center><img src="/assets/images/easy-plotting-2.png" max-width:70%></center>>
+<center><img src="/assets/images/easy-plotting-2.png" max-width="70%"></center>>
+
+<div id="ImageContainer">
+    <img src="/assets/images/easy-plotting-2.png" class="Image">
+</div>
 
 
 Want to visualize the relationship between three variables? No problemo! Just use another parameters, like point size, to encode that third variable:

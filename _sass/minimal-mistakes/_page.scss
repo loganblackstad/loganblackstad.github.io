@@ -23,6 +23,8 @@
     overflow-y: visible;
 }
 
+img.Image { max-width: 80%; display: block; }
+div#ImageContainer { width: 600px; }
 
 .page {
   @include breakpoint($large) {
