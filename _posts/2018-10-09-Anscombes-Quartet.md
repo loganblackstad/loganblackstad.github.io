@@ -1,10 +1,10 @@
-----
+---
 layout: single
 title: Anscombe’s Quartet
 excerpt: "Anscombe's quartet comprises four datasets that have nearly identical simple descriptive statistics, yet appear very different when graphed. Each dataset consists of eleven (x,y) points."
 date: 2018-10-07
 tags: [ Jekyll, IPython ]
-----
+---
 
 <h2>Anscombe’s Quartet, and Why Summary Statistics Don’t Tell the Whole Story</h2>
 
