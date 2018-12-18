@@ -20,11 +20,13 @@ This is a paragraph, it's surrounded by whitespace. Next up are some headers, th
 ## Header 2 (H1 is reserved for post titles)
 ### Header 3
 #### Header 4
- 
+
+#### Displaying url links 
 An embedded link to my [GitHub Repositories](https://github.com/loganblackstad/). 
 A literal link: <https://github.com/loganblackstad/>
-  
-Displaying Images, located within "/assets/images" :  
+
+<br>  
+#### Displaying Images, located within "/assets/images" :  
 
 image (original size) coded in markdown:  
 ![Coding Icon Image]({{ site.baseurl }}/assets/images/icon-sencha-test-studio-1.png "Coding Icon Image")  
@@ -53,7 +55,8 @@ Inline markup styles:
  
 > Blockquote
 >> Nested Blockquote 
- 
+
+#### Syntax Highlighting:
 Syntax highlighting can be used by wrapping your code in a liquid tag like so:
 
 {{ "{% highlight javascript " }}%}  
@@ -96,10 +99,12 @@ This is a paragraph, it's surrounded by whitespace. Next up are some headers, th
 
 <br>
 <br>
-An embedded link to my [GitHub Repositories](https://github.com/loganblackstad/).  
+#### Displaying url links 
+An embedded link to my [GitHub Repositories](https://github.com/loganblackstad/). 
 A literal link: <https://github.com/loganblackstad/>
-  
-Displaying Images, located within "/assets/images" :  
+
+<br>  
+#### Displaying Images, located within "/assets/images" :  
 
 image (original size) coded in markdown:  
 ![Coding Icon Image]({{ site.baseurl }}/assets/images/icon-sencha-test-studio-1.png "Coding Icon Image")  
@@ -128,7 +133,8 @@ Inline markup styles:
  
 > Blockquote
 >> Nested Blockquote 
- 
+
+#### Syntax Highlighting:
 Syntax highlighting can be used by wrapping your code in a liquid tag like so:
 
 {{ "{% highlight javascript " }}%}  
