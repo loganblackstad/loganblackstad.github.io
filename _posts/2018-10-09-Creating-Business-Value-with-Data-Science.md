@@ -1,30 +1,14 @@
 ---
 title: Creating Business Value with Data Analytics
-date: 2018-10-09
-excerpt: "TEST - formatting is hard... stay tuned for more readable content"
+date: 2018-10-29
+excerpt: "PAGE IN DEVELOPMENT"
 tags: [Data Analytics, Python, Analytics]
 use_math: true
 ---
 
-
-```
-# container {
-    float: left;
-    margin: 0 - 240px 0 0;
-    width: 100 %;
-```
-
-{ % highlight pyhton % }  
-"""
-Some pointless Python Code
-author:  Logan Blackstad
-"""
-
-import pandas as pd
-
-d = {'col1': [1, 2], 'col2': [3, 4]}
-df = pd.DataFrame(data=d)
-{ % endhighlight % } 
+<img src="https://loganblackstad.github.io/assets/images/data-analytics-progression.jpg" >  
 
 
-<script src="https://gist.github.com/loganblackstad/42ed546ccd4e1cfef3857bec7cbf2098.js"></script>
+## { PAGE IN DEVELOPMENT }
+
+
