@@ -24,7 +24,7 @@ Matplotlib is a popular Python library that can be used to create your Data Visu
 ## Scatter Plots
 
 Scatter plots are great for showing the relationship between two variables since you can directly see the raw distribution of the data. You can also view this relationship for different groups of data simple by color coding the groups:   
-<center><img src="/assets/images/easy-plotting-2.png" max-width="70%"></center>>
+<center><img src="/assets/images/easy-plotting-2.png" max-width="50%"></center>>
 
 <div id="ImageContainer">
     <img src="/assets/images/easy-plotting-2.png" class="Image">
@@ -34,7 +34,7 @@ Scatter plots are great for showing the relationship between two variables since
 Want to visualize the relationship between three variables? No problemo! Just use another parameters, like point size, to encode that third variable:
 
 **Scatter plot with color groupings and size encoding for the third variable of country size**
-<center><img src="/assets/images/easy-plotting-3.png" max-width:70%></center>
+<center><img src="/assets/images/easy-plotting-3.png" max-width="30%"></center>
 
 
 Now for the code. We first import Matplotlib’s pyplot with the alias “plt”. To create a new plot figure we call `plt.subplots()` . We pass the x-axis and y-axis data to the function and then pass those to `ax.scatter()` to plot the scatter plot. We can also set the point size, point color, and alpha transparency. You can even set the y-axis to have a logarithmic scale. The title and axis labels are then set specifically for the figure. That’s an easy to use function that creates a scatter plot end to end!
