@@ -15,6 +15,7 @@ That being said, let's start with the basics of what Data Analytics can offer to
 <center><img src="https://loganblackstad.github.io/assets/images/data-analytics-progression.jpg" ></center>  
 
 
+<br>
 Generally, 
 
 1. Identify high-level business value goals that we would like to deliver
@@ -29,6 +30,7 @@ Generally,
 
 
 <center><img src="https://loganblackstad.github.io/assets/images/data-analytics-dashboard.jpg" width="70%"></center>  
+<br>
 
 <center><img src="https://loganblackstad.github.io/assets/images/data-analytics-real-world-setting.jpg" width="70%"></center>  
 
