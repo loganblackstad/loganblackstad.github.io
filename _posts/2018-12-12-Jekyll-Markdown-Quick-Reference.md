@@ -24,13 +24,18 @@ This is a paragraph, it's surrounded by whitespace. Next up are some headers, th
 An embedded link to my [GitHub Repositories](https://github.com/loganblackstad/). 
 A literal link: <https://github.com/loganblackstad/>
   
-An image, located within "/assets/images" :  
+Displaying Images, located within "/assets/images" :  
+
 image (original size) coded in markdown:  
 ![Coding Icon Image]({{ site.baseurl }}/assets/images/icon-sencha-test-studio-1.png "Coding Icon Image")  
+
 image (width=100px) coded in html:  
 <img src="https://loganblackstad.github.io/assets/images/icon-sencha-test-studio-1.png" alt="Coding Icon Image" width="100px">  
-_(***remember:** you must add 2 trailing whitespaces after the text for the image to appear on the next line)_
 
+(**remember:** you must add 2 trailing whitespaces after the text for the image to appear on the next line)
+
+
+#### Lists:
 * A bulletted list
 - alternative syntax 1
 + alternative syntax 2
@@ -94,13 +99,18 @@ This is a paragraph, it's surrounded by whitespace. Next up are some headers, th
 An embedded link to my [GitHub Repositories](https://github.com/loganblackstad/).  
 A literal link: <https://github.com/loganblackstad/>
   
-An image, located within "/assets/images" :  
+Displaying Images, located within "/assets/images" :  
+
 image (original size) coded in markdown:  
 ![Coding Icon Image]({{ site.baseurl }}/assets/images/icon-sencha-test-studio-1.png "Coding Icon Image")  
+
 image (width=100px) coded in html:  
 <img src="https://loganblackstad.github.io/assets/images/icon-sencha-test-studio-1.png" alt="Coding Icon Image" width="100px">  
-_(***remember:** you must add 2 trailing whitespaces after the text for the image to appear on the next line)_
 
+(**remember:** you must add 2 trailing whitespaces after the text for the image to appear on the next line)
+
+
+#### Lists:
 * A bulletted list
 - alternative syntax 1
 + alternative syntax 2
