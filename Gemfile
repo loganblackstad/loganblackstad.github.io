@@ -11,5 +11,4 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "jekyll-archives"
   gem "jekyll-jupyter-notebook"
-  gem "jekyll-responsive-image"
 end
