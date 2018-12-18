@@ -23,14 +23,14 @@ Matplotlib is a popular Python library that can be used to create your Data Visu
 
 ## Scatter Plots
 
-Scatter plots are great for showing the relationship between two variables since you can directly see the raw distribution of the data. You can also view this relationship for different groups of data simple by color coding the groups: 
-<img src="/assets/images/easy-plotting-2.png">
+Scatter plots are great for showing the relationship between two variables since you can directly see the raw distribution of the data. You can also view this relationship for different groups of data simple by color coding the groups:   
+<center><img src="/assets/images/easy-plotting-2.png" max-width=70%></center>>
 
 
 Want to visualize the relationship between three variables? No problemo! Just use another parameters, like point size, to encode that third variable:
 
 **Scatter plot with color groupings and size encoding for the third variable of country size**
-<img src="/assets/images/easy-plotting-3.png">
+<center><img src="/assets/images/easy-plotting-3.png" max-width=70%></center>
 
 
 Now for the code. We first import Matplotlib’s pyplot with the alias “plt”. To create a new plot figure we call `plt.subplots()` . We pass the x-axis and y-axis data to the function and then pass those to `ax.scatter()` to plot the scatter plot. We can also set the point size, point color, and alpha transparency. You can even set the y-axis to have a logarithmic scale. The title and axis labels are then set specifically for the figure. That’s an easy to use function that creates a scatter plot end to end!
@@ -55,7 +55,7 @@ _Line Plot Code:_
 ## Histograms
 Histograms are useful for viewing the distribution of data points. Check out the histogram below where we plot the frequency vs IQ histogram. We can clearly see the concentration towards the center and what the median is. We can also see that it follows a Gaussian distribution. Using the bars (rather than scatter points, for example) really gives us a clearly visualization of the relative difference between the frequency of each bin. The use of bins (discretization) really helps us see the “bigger picture” where as if we use all of the data points without discrete bins, there would probably be a lot of noise in the visualization, making it hard to see what is really going on.
 
-<img src="/assets/images/easy-plotting-5.png">
+<center><img src="/assets/images/easy-plotting-5.png" max-width:70%></center>
 
 
 
@@ -65,9 +65,9 @@ _Histogram Code:_
 <script src="https://gist.github.com/loganblackstad/bc44d4d23bb9fafb42430592b00ad1ac.js"></script>
 
 
-Imagine we want to compare the distribution of two variables in our data. One might think that you’d have to make two separate histograms and put them side-by-side to compare them. But, there’s actually a better way: we can overlay the histograms with varying transparency. Check out the figure below. The Uniform distribution is set to have a transparency of 0.5 so that we can see what’s behind it. This allows use to directly view the two distributions on the same figure.
+Imagine we want to compare the distribution of two variables in our data. One might think that you’d have to make two separate histograms and put them side-by-side to compare them. But, there’s actually a better way: we can overlay the histograms with varying transparency. Check out the figure below. The Uniform distribution is set to have a transparency of 0.5 so that we can see what’s behind it. This allows use to directly view the two distributions on the same figure.  
 
-**Overlaid Histogram**
+**Overlaid Histogram**  
 <img src="/assets/images/easy-plotting-5.png">
 
 
@@ -82,7 +82,7 @@ Bar plots are most effective when you are trying to visualize categorical data t
 
 The regular barplot is in the first figure below. In the `barplot()` function, `x_data` represents the tickers on the x-axis and `y_data` represents the bar height on the y-axis. The error bar is an extra line centered on each bar that can be drawn to show the standard deviation.
 
-**Regular Bar Plot**  
+**Regular Bar Plot**    
 <img src="/assets/images/easy-plotting-7.png">
 
 
