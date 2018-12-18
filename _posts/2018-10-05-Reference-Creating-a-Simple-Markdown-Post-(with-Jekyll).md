@@ -1,5 +1,5 @@
 ---
-title: "Reference - Creating a Simple Markdown Post (with Jekyll)"
+title: "[Reference] Creating a Simple Markdown Post (with Jekyll)"
 author_profile: false
 author: Logan Blackstad
 excerpt: "Learn how to create a simple markdown post with Jekyll."

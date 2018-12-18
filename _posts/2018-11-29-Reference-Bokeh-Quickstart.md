@@ -1,7 +1,7 @@
 ---
 layout: single
+title: "[Refrence] Bokeh Quickstart"
 excerpt: "Bokeh is a Python interactive visualization library that targets modern web browsers for presentation. Its goal is to provide elegant, concise construction of novel graphics in the style of D3.js, and to extend this capability..."
-title: "Refrence - Bokeh Quickstart"
 tags: [ python, jupyter notebooks ]
 date: 2018-11-29
 --- 

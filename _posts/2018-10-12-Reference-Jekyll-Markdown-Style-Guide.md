@@ -1,5 +1,5 @@
 ---
-title: "Reference - Jekyll Markdown Style Guide"
+title: "[Reference] Jekyll Markdown Style Guide"
 date: 2018-10-12
 tags: [ Jekyll, Markdown ]
 ---
