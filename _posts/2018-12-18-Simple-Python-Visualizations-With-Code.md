@@ -60,7 +60,7 @@ Histograms are useful for viewing the distribution of data points. Check out the
 
 
 
-The code for the histogram in Matplotlib is shown below. There are two parameters to take note of. Firstly, the n_bins parameters controls how many discrete bins we want for our histogram. More bins will give us finer information but may also introduce noise and take us away from the bigger picture; on the other hand, less bins gives us a more “birds eye view” and a bigger picture of what’s going on without the finer details. Secondly, the cumulative parameter is a boolean which allows us to select whether our histogram is cumulative or not. This is basically selecting either the Probability Density Function (PDF) or the Cumulative Density Function (CDF).
+The code for the histogram in Matplotlib is shown below. There are two parameters to take note of. Firstly, the `n_bins` parameters controls how many discrete bins we want for our histogram. More bins will give us finer information but may also introduce noise and take us away from the bigger picture; on the other hand, less bins gives us a more “birds eye view” and a bigger picture of what’s going on without the finer details. Secondly, the `cumulative` parameter is a boolean which allows us to select whether our histogram is cumulative or not. This is basically selecting either the Probability Density Function (PDF) or the Cumulative Density Function (CDF).
 
 _Histogram Code:_
 <script src="https://gist.github.com/loganblackstad/bc44d4d23bb9fafb42430592b00ad1ac.js"></script>
@@ -81,13 +81,13 @@ _Overlaid Histogram Code_
 ## Bar Plots
 Bar plots are most effective when you are trying to visualize categorical data that has few (probably < 10) categories. If we have too many categories then the bars will be very cluttered in the figure and hard to understand. They’re nice for categorical data because you can easily see the difference between the categories based on the size of the bar (i.e magnitude); categories are also easily divided and color coded too. There are 3 different types of bar plots we’re going to look at: regular, grouped, and stacked. Check out the code below the figures as we go along.
 
-The regular barplot is in the first figure below. In the `barplot()` function, x_data represents the tickers on the x-axis and y_data represents the bar height on the y-axis. The error bar is an extra line centered on each bar that can be drawn to show the standard deviation.
+The regular barplot is in the first figure below. In the `barplot()` function, `x_data` represents the tickers on the x-axis and `y_data` represents the bar height on the y-axis. The error bar is an extra line centered on each bar that can be drawn to show the standard deviation.
 
 **Regular Bar Plot**
 <img src="/assets/images/easy-plotting-7.png">
 
 
-Grouped bar plots allow us to compare multiple categorical variables. Check out the second bar plot below. The first variable we are comparing is how the scores vary by group (groups G1, G2, ... etc). We are also comparing the genders themselves with the color codes. Taking a look at the code, the y_data_list variable is now actually a list of lists, where each sublist represents a different group. We then loop through each group, and for each group we draw the bar for each tick on the x-axis; each group is also color coded.
+Grouped bar plots allow us to compare multiple categorical variables. Check out the second bar plot below. The first variable we are comparing is how the scores vary by group (groups G1, G2, ... etc). We are also comparing the genders themselves with the color codes. Taking a look at the code, the `y_data_list` variable is now actually a list of lists, where each sublist represents a different group. We then loop through each group, and for each group we draw the bar for each tick on the x-axis; each group is also color coded.
 
 **Grouped Bar Plot**
 <img src="/assets/images/easy-plotting-8.png">
@@ -108,7 +108,7 @@ We previously looked at histograms which were great for visualizing the distribu
 
 That’s where boxplots come in. Box plots give us all of the information above. The bottom and top of the solid-lined box are always the first and third quartiles (i.e 25% and 75% of the data), and the band inside the box is always the second quartile (the median). The whiskers (i.e the dashed lines with the bars on the end) extend from the box to show the range of the data.
 
-Since the box plot is drawn for each group/variable it’s quite easy to set up. The x_data is a list of the groups/variables. The Matplotlib function `boxplot()` makes a box plot for each column of the y_data or each vector in sequence y_data; thus each value in x_data corresponds to a column/vector in y_data. All we have to set then are the aesthetics of the plot.
+Since the box plot is drawn for each group/variable it’s quite easy to set up. The `x_data` is a list of the groups/variables. The Matplotlib function `boxplot()` makes a box plot for each column of the y_data or each vector in sequence `y_data`; thus each value in `x_data` corresponds to a column/vector in `y_data`. All we have to set then are the aesthetics of the plot.
 
 <img src="/assets/images/easy-plotting-10.png">
 
@@ -118,7 +118,7 @@ _Box Plot Code_
 
 
 
-Conclusion
+## Conclusion
 There are your 5 quick and easy data visualizations using Matplotlib. Abstracting things into functions always makes your code easier to read and use! I hope you enjoyed this post and learned something new and useful.
 
 
