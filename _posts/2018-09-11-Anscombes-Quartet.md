@@ -36,7 +36,6 @@ Visualizing our data allows us to revisit our summary statistics and recontextua
 
 ----
 ----
-
 ### References:
 * https://seaborn.pydata.org/_downloads/anscombes_quartet.py
 * https://en.wikipedia.org/wiki/Anscombe%27s_quartet
