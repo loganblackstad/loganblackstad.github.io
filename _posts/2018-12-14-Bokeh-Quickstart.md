@@ -29,7 +29,6 @@ easily. We also import the `show` and `ouptut_notebook` functions from
 <!---  <span style="color:rgb(56,63,155)">In [1]:</span>  --->
 
 <p style="font-family:Consolas; font-size:70%; color:rgb(56,63,155); ">In [1]:</p>
-
 {% highlight python %}
 from bokeh.plotting import figure 
 from bokeh.io import output_notebook, show
@@ -59,7 +58,6 @@ output_notebook()
 Next, we'll import NumPy and create some simple data. 
 
 <p style="font-family:Consolas; font-size:70%; color:rgb(56,63,155); ">In [3]:</p>
-
 {% highlight python %}
 from numpy import cos, linspace
 x = linspace(-6, 6, 100)
@@ -79,7 +77,6 @@ The toolbar below is the default one that is available for all plots. It can be
 configured further via the `tools` keyword argument. 
 
 <p style="font-family:Consolas; font-size:70%; color:rgb(56,63,155); ">In [4]:</p>
-
 {% highlight python %}
 p = figure(width=500, height=500)
 p.circle(x, y, size=7, color="firebrick", alpha=0.5)
@@ -113,7 +110,6 @@ Bokeh ships with a small set of interesting "sample data" in the
 data, which is returned as a Pandas `DataFrame`. 
 
 <p style="font-family:Consolas; font-size:70%; color:rgb(56,63,155); ">In [5]:</p>
-
 {% highlight python %}
 from bokeh.sampledata.autompg import autompg
 
@@ -129,7 +125,6 @@ japanese = autompg[autompg["origin"]==3]
 For each year, we want to plot the distribution of MPG within that year. 
 
 <p style="font-family:Consolas; font-size:70%; color:rgb(56,63,155); ">In [6]:</p>
-
 {% highlight python %}
 p = figure(title="MPG by Year (Japan and US)")
 
@@ -172,7 +167,6 @@ We can use a "select" tool to select points on one plot, and the linked points
 on the other plots will highlight. 
 
 <p style="font-family:Consolas; font-size:70%; color:rgb(56,63,155); ">In [7]:</p>
-
 {% highlight python %}
 from bokeh.models import ColumnDataSource
 from bokeh.layouts import gridplot
@@ -223,7 +217,6 @@ Now when we call `show()`, a new browser tab is also opened with the plot. If we
 just wanted to save the file, we would use `save()` instead. 
 
 <p style="font-family:Consolas; font-size:70%; color:rgb(56,63,155); ">In [8]:</p>
-
 {% highlight python %}
 from bokeh.plotting import output_file
 
@@ -274,7 +267,6 @@ https://demo.bokehplots.com embedded in an IFrame. Scrub the sliders or change
 the title to see the plot update. 
 
 <p style="font-family:Consolas; font-size:70%; color:rgb(56,63,155); ">In [9]:</p>
-
 {% highlight python %}
 from IPython.display import IFrame
 IFrame('https://demo.bokehplots.com/apps/sliders/', width=900, height=410)
