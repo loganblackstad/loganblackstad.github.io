@@ -1,6 +1,6 @@
 ---
 title: Atlanta Weather Visualized
-date: 2018-12-12
+date: 2018-11-02
 excerpt: "A To Do List for displaying my data analytics portfolio."
 tags: [Atlanta, Data Visualization, Python]
 use_math: true

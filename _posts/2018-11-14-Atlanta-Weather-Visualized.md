@@ -1,12 +1,12 @@
 ---
-title: Atlanta Weather Plotting
+title: Atlanta Weather Visualized
 excerpt: "[Page in Development] I need to play with the formatting (text sizing, color, adding images, etc.)"
-date: 2018-12-13
-tags: [ python, notebook]
+date: 2018-11-14
+tags: [ python, notebook, Atlanta]
 ---
 
 
-**In [1]:**
+<p style="font-family:Consolas; font-size:70%; color:rgb(56,63,155); ">In [1]:</p>
 
 {% highlight python %}
 import numpy as np
@@ -40,7 +40,7 @@ NOAA sends an email file containing the csv of weather data to the email youy sp
 I then imported atlanta-weather.csv as a pandas DataFrame. (Important: the .csv file has to be in the same directory as your jupyter file.) 
 
 
-**In [2]:**
+<p style="font-family:Consolas; font-size:70%; color:rgb(56,63,155); ">In [2]:</p>
 {% highlight python %}
 test_w = pd.read_csv("test.csv")
 test_w.head()

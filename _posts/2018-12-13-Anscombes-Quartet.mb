@@ -5,22 +5,14 @@ date: 2018-12-13
 tags: [ Jekyll, IPython ]
 ---
 
-Python source code: [download source: anscombes_quartet.py](https://seaborn.pydata.org/_downloads/anscombes_quartet.py)
+## Anscombe’s Quartet, and Why Summary Statistics Don’t Tell the Whole Story
 
-{% highlight python %}
+Anscombe's quartet comprises four datasets that have nearly identical simple descriptive statistics, yet appear very different when graphed. Each dataset consists of eleven (x,y) points. They were constructed in 1973 by the statistician Francis Anscombe to demonstrate both the importance of graphing data before analyzing it and the effect of outliers on statistical properties. He described the article as being intended to counter the impression among statisticians that "numerical calculations are exact, but graphs are rough."
 
-import seaborn as sns
-sns.set(style="ticks")
-
-# Load the example dataset for Anscombe's quartet
-df = sns.load_dataset("anscombe")
-
-# Show the results of a linear regression within each dataset
-sns.lmplot(x="x", y="y", col="dataset", hue="dataset", data=df,
-           col_wrap=2, ci=None, palette="muted", height=4,
-           scatter_kws={"s": 50, "alpha": 1})
-
-{% endhighlight %}
-
+<script src="https://gist.github.com/loganblackstad/16ad035daf360cdeb8e092951a7ed97f.js"></script>
 
 <img src="https://loganblackstad.github.io/assets/images/anscombes_quartet.png">
+
+### References:
+* https://seaborn.pydata.org/_downloads/anscombes_quartet.py
+* https://en.wikipedia.org/wiki/Anscombe%27s_quartet
