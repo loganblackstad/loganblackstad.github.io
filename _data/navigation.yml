@@ -8,10 +8,10 @@ main:
     url: /about/
   - title: "Posts"
     url: /posts/
-  - title: "Archive"
-    url: /archive/
-  - title: "Resources"
-    url: /resources/
+  - title: "Archive & Resources"
+    url: /archive&resources/
+#  - title: "Resources"
+#   url: /resources/
 
 docs:
   - title: Getting Started
