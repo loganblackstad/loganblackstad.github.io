@@ -6,12 +6,14 @@ excerpt: "{ PAGE UNDER CONSTRUCTION }"
 tags: [ python, jupyter notebooks ]
 --- 
 
+Compnaies, non-profits, governments, and other organnizations are constantly relying on their data to make decisions and drive strategy.  
 
-<div>
-<img src="/assets/images/data-scientist-analyst-2.jpg">
-</div>
+So who do these organizations rely on to make sense of their data - Business Intelligence (BI) Analysts, Data Analyst, and Data Scientists?
 
-In my experience different companies will have different interpretations of each role. For example. I'm a BI Dev but I'm currently working on natural language processing, which is probably more broadly aligned with data science. In your situation, I'd focus on any and all statistics skills you have. Focus on R and Python as languages and that should start aligning you to data science roles. You already have access to relevant data sets so get funky with it! Make someone notice what you can achieve with those skills + existing data.
+Many interpretations of these roles exists, and titles don't always translate to specific roles and responsibilities.  
+
+
+Business leaders are focused on expose variability and optimize their operations for the highest quality results. These patterns can create competitive advantages, and result in business benefits like more effective marketing and increased revenue.
 
 
 <center><img src="/assets/images/data-scientist-analyst-2.jpg" width="70%"></center>  
