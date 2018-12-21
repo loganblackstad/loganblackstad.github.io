@@ -4,14 +4,14 @@ main:
 #  - title: "Projects"
 #    url: /projects/
 
+  - title: "About"
+    url: /about/
   - title: "Posts"
     url: /posts/
   - title: "Archive"
     url: /archive/
   - title: "Resources"
     url: /resources/
-  - title: "About"
-    url: /about/
 
 docs:
   - title: Getting Started
