@@ -26,7 +26,7 @@ To become effective data-driven organization, businesses need to perform the fol
 	<li><b>Analysis:</b> Transforming data assets into competitive insights that will drive business decisions and actions using people, processes, and technologies. Reporting says what happened but Analysis says why it happened. Reporting is descriptive but Analysis is Prescriptive.</li>
 </ul>
 
-<center><img src="/assets/images/reporting-vs-analysis.png" width="80%"></center>  
+<center><img src="/assets/images/reporting-vs-analysis.png"></center>  
 
 <br>
 <br>
@@ -40,7 +40,7 @@ To become effective data-driven organization, businesses need to perform the fol
 
 ### At the end of the day, all of these positions answer the same question: 
 
-How can we make better decisions based on data. It is up to company leaders to build teams that fit the organization's needs.
+How can we make better decisions based on data.  It is up to company leaders to build teams that fit the organization's needs.
 
 <br> 
 
