@@ -7,7 +7,7 @@ tags: [ data science, data analysis,  ]
 --- 
 
 <div>
-<center></center><img src="/assets/images/data-analytics-real-world-setting.jpg"></center>
+<center><img src="/assets/images/data-analytics-real-world-setting.jpg"></center>
 </div>
 
 <br>
@@ -38,9 +38,11 @@ To become effective data-driven organization, businesses need to perform the fol
 
 <br>
 
-At the end of the day, all of these positions answer the same question: 
+### At the end of the day, all of these positions answer the same question: 
 
-How to make better decisions based on data. 
+How can we make better decisions based on data. It is up to company leaders to build teams that fit the organization's needs.
+
+<br> 
 
 
 ----
