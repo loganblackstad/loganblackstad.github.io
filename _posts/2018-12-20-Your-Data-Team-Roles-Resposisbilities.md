@@ -28,10 +28,15 @@ To become effective data-driven organization, businesses need to perform the fol
 
 <center><img src="/assets/images/reporting-vs-analysis.png" width="80%"></center>  
 
+<br>
+<br>
 
+### Let's take a look at a Comparison:
+<br>
 <center><img src="/assets/images/data-team.jpg"></center>  
 
 
+<br>
 
 At the end of the day, all of these positions answer the same question: 
 
