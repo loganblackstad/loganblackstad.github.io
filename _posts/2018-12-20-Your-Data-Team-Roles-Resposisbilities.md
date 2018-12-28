@@ -37,6 +37,7 @@ To become effective data-driven organization, businesses need to perform the fol
 
 
 <br>
+<br>
 
 ### At the end of the day, all of these positions answer the same question: 
 
