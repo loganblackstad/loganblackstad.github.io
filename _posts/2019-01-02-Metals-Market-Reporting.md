@@ -7,12 +7,13 @@ tags: [ metals, mining ]
 --- 
 
 <div>
-<center><img src="/assets/images/aerial-mining.jpg"></center>
+<center><img src="/assets/images/aerial-mining-1.jpg"></center>
 </div>
 
 <br>
+Fluctuating commodity prices, disruptive technologies, and increased competition are driving Metals and Mining companies to deliver innovative and value-added solutions to tackle increasingly complex financial and operating challenges.
 
-The rise of green energy technologies required for a low-carbon future is expected to lead to significant growth in demand for a wide range of minerals and metals, such as aluminum, copper, lead, lithium, manganese, nickel, silver, steel, and zinc and rare earth minerals, according to a new World Bank report, <a href="http://documents.worldbank.org/curated/en/207371500386458722/The-Growing-Role-of-Minerals-and-Metals-for-a-Low-Carbon-Future">“The Growing Role of Minerals and Metals for a Low-Carbon Future.” </a>
+Within the mining, metal, process, energy, and infrastructure industries, typical analysis includes techno-economic due diligence, mergers and acquisition reviews, asset management, continuous improvement projects, cost control, debottlenecking and other advisory services to support investment decisions.
 
 <br>
 
@@ -31,18 +32,6 @@ The rise of green energy technologies required for a low-carbon future is expect
   <li>Provide subject-matter expertise to other departments.</li>
 </ul>
 
-<b>Skills</b>
-<ul>
-  <li>experience with commodity markets preferred</li>
-  <li>A minimum of a Bachelor’s degree in journalism, communications, economics, business, geography or relevant field</li>
-  <li>Demonstrated goal-oriented collaboration skills, with strong diplomatic and problem-solving ability</li>
-  <li>Experience in a professional publishing capacity or in an analyst role</li>
-  <li>A strong understanding of economics and the role and practice of price reporting</li>
-  <li>A commitment to the highest level of accuracy and completing all writing within established deadlines</li>
-  <li>Strong experience with Microsoft Office Suite with particular experience in Excel</li>
-  <li>The willingness and ability to travel up to 20% of the time in order to fulfill the responsibilities of this position</li>
-  <li>Spanish language skills preferred</li>
-</ul>
 
 <style>
 
