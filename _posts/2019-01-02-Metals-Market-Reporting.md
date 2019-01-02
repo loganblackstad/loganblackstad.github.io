@@ -56,15 +56,14 @@ Knowledge, Skills, and Abilities
 table {
   border: 0;
   width:100%;
-  font-size: 1em;
+  /*font-size: 1em;*/
 }
 
-/*
 th, td {
-  width: 33%;
   border: 0;
+  /*width: 33%;*/
 }
-*/
+
 
 </style>
 
