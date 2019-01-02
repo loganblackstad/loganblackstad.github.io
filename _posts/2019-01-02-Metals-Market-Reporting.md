@@ -71,7 +71,7 @@ th, td {
 
 <table>
   <tr>
-    <td width="20%"><img src="/assets/images/icon-home-about-me.JPG" width="80%"></td>
+    <td width="20%"><img src="/assets/images/icon-mining-commodity-pricing.JPG" width="80%"></td>
     <td>Collect market prices and make assessments, adhering to rigorous compliance standards</td>
   </tr>
 </table>
