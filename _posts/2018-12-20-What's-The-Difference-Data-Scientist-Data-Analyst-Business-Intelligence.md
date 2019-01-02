@@ -27,6 +27,7 @@ How to make more money, based on the data/information collected and available.
 
 
 ### Tools of the Data Scientist
+<br>
 
 <center><img src="/assets/images/top-10-algorithms-data-scientists-used.jpg" width="70%"></center>  
 
