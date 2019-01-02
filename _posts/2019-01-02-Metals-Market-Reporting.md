@@ -25,30 +25,35 @@ The rise of green energy technologies required for a low-carbon future is expect
 <center><img src="/assets/images/mining-low-carbon.jpg"></center>  
 
 
-• Collect market prices and make assessments, adhering to rigorous compliance standards.
-• Oversee methodology relevant to coverage, which includes timely communication of needed changes, additions or deletions.
-• Write market commentaries, news, analysis and market outlooks; develop graphs and charts within Excel to illustrate trends and analysis; communicate this information in a timely manner to management and subscribers.
-• Work with, and interview subject matter experts and research industry trends.
-• Contribute to presentations as directed by management.
-• Develop and maintain rapport with key contacts, and liaise regularly with industry stakeholders (buyers, sellers, traders, brokers) to gain market intelligence.
-• Develop new contacts within the market to aid with gathering prices and general market intelligence.
-• Maintain existing databases and build new databases for designated products.
-• Cover conferences and events (some travel required).
-• Adhere to strict deadlines.
-• Provide subject-matter expertise to other Argus departments.
-• Work on special projects as needed.
+<br>
 
-Knowledge, Skills, and Abilities
-• The legal authorization to work in the US for any US employer
-• A minimum of 4 years of prior experience with commodity markets preferred
-• A minimum of a Bachelor’s degree in journalism, communications, economics, business, geography or relevant field
-• Demonstrated goal-oriented collaboration skills, with strong diplomatic and problem-solving ability
-• Experience in a professional publishing capacity or in an analyst role
-• A strong understanding of economics and the role and practice of price reporting
-• A commitment to the highest level of accuracy and completing all writing within established deadlines
-• Strong experience with Microsoft Office Suite with particular experience in Excel
-• The willingness and ability to travel up to 20% of the time in order to fulfill the responsibilities of this position
-• Spanish language skills preferred
+<b>What can a Metals Market Reporter bring to the table?</b>
+
+  <li>Collect market prices and make assessments, adhering to rigorous compliance standards.</li>
+  <li>Oversee methodology relevant to coverage, which includes timely communication of needed changes, additions or deletions.</li>
+  <li>Write market commentaries, news, analysis and market outlooks; develop graphs and charts within Excel to illustrate trends and analysis; communicate this information in a timely manner to management and subscribers.</li>
+  <li>Work with, and interview subject matter experts and research industry trends.</li>
+  <li>Contribute to presentations as directed by management.</li>
+  <li>Develop and maintain rapport with key contacts, and liaise regularly with industry stakeholders (buyers, sellers, traders, brokers) to gain market intelligence.
+  <li>Develop new contacts within the market to aid with gathering prices and general market intelligence.</li>
+  <li>Maintain existing databases and build new databases for designated products.</li>
+  <li>Cover conferences and events (some travel required).</li>
+  <li>Adhere to strict deadlines.</li>
+  <li>Provide subject-matter expertise to other departments.</li>
+ 
+<br>
+
+<b>Skills</b>
+
+  <li>experience with commodity markets preferred</li>
+  <li>A minimum of a Bachelor’s degree in journalism, communications, economics, business, geography or relevant field</li>
+  <li>Demonstrated goal-oriented collaboration skills, with strong diplomatic and problem-solving ability</li>
+  <li>Experience in a professional publishing capacity or in an analyst role</li>
+  <li>A strong understanding of economics and the role and practice of price reporting</li>
+  <li>A commitment to the highest level of accuracy and completing all writing within established deadlines</li>
+  <li>Strong experience with Microsoft Office Suite with particular experience in Excel</li>
+  <li>The willingness and ability to travel up to 20% of the time in order to fulfill the responsibilities of this position</li>
+  <li>Spanish language skills preferred</li>
 
 
 <style>
