@@ -81,7 +81,7 @@ analytics:
 # in bio:  <a href='https://twitter.com/GeorgiaTech'>@GeorgiaTech</a>"
 author:
   name             : "Logan Blackstad"
-  avatar           : https://avatars0.githubusercontent.com/u/26091324
+  avatar           : <a href='https://loganblackstad.github.io/about/'>https://avatars0.githubusercontent.com/u/26091324</a>
   bio              : "Business & Data Analyst focused on storytelling through vizualization. <br><br> <strong>Latest Project:</strong> <br>( In Progress ) <br><br> <strong>Current Status:</strong> <br>Building a data analytics portfolio"
   location         : "Atlanta, GA"
   email            : logan.blackstad@gmail.com
