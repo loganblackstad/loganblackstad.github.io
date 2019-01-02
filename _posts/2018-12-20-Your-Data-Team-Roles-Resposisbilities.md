@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Your Data Team: Roles & Resposisbilities"
+title: "Your Data Team: Roles & Responsibilities"
 date: 2018-12-20
 excerpt: "A data-driven organization will use the data as critical evidence to help inform and influence strategy. To be data-driven means cultivating a mindset throughout the business to continually use data and analytics to make..."
 tags: [ data science, data analysis,  ]
