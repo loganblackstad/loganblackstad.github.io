@@ -18,6 +18,9 @@ Business leaders are focused on expose variability and optimize their operations
 
 <center><img src="/assets/images/data-scientist-analyst-2.jpg" width="70%"></center>  
 
+<br>
+<br>
+
 At the end of the day, all of these positions answer the same question: 
 
 How to make more money, based on the data/information collected and available. 
