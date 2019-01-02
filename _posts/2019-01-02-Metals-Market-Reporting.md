@@ -28,7 +28,7 @@ The rise of green energy technologies required for a low-carbon future is expect
 <br>
 
 <b>What can a Metals Market Reporter bring to the table?</b>
-
+<ul>
   <li>Collect market prices and make assessments, adhering to rigorous compliance standards.</li>
   <li>Oversee methodology relevant to coverage, which includes timely communication of needed changes, additions or deletions.</li>
   <li>Write market commentaries, news, analysis and market outlooks; develop graphs and charts within Excel to illustrate trends and analysis; communicate this information in a timely manner to management and subscribers.</li>
@@ -40,11 +40,11 @@ The rise of green energy technologies required for a low-carbon future is expect
   <li>Cover conferences and events (some travel required).</li>
   <li>Adhere to strict deadlines.</li>
   <li>Provide subject-matter expertise to other departments.</li>
- 
+</ul>
 <br>
 
 <b>Skills</b>
-
+<ul>
   <li>experience with commodity markets preferred</li>
   <li>A minimum of a Bachelor’s degree in journalism, communications, economics, business, geography or relevant field</li>
   <li>Demonstrated goal-oriented collaboration skills, with strong diplomatic and problem-solving ability</li>
@@ -54,7 +54,7 @@ The rise of green energy technologies required for a low-carbon future is expect
   <li>Strong experience with Microsoft Office Suite with particular experience in Excel</li>
   <li>The willingness and ability to travel up to 20% of the time in order to fulfill the responsibilities of this position</li>
   <li>Spanish language skills preferred</li>
-
+</ul>
 
 <style>
 
