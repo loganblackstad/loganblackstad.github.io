@@ -58,18 +58,22 @@ table {
   width:100%;
   font-size: 1em;
 }
+
+/*
 th, td {
   width: 33%;
   border: 0;
 }
+*/
 
 </style>
 
+
+
 <table>
   <tr>
-    <td width="20%"><img src="/assets/images/icon-home-about-me.JPG" width="70%"></center></td>
-    <td><center><a href="https://loganblackstad.github.io/projects/"><img src="/assets/images/icon-home-portfolio.JPG" width="65%"></center></td>
-    <td><center><a href="https://loganblackstad.github.io/archive&resources/"><img src="/assets/images/icon-home-archive.JPG" width="70%"></center></td>
+    <td width="20%"><img src="/assets/images/icon-home-about-me.JPG" width="80%"></td>
+    <td>Collect market prices and make assessments, adhering to rigorous compliance standards</td>
   </tr>
 </table>
 
