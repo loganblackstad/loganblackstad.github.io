@@ -23,7 +23,7 @@ The rise of green energy technologies required for a low-carbon future is expect
   <li>Write market commentaries, news, analysis and market outlooks; develop graphs and charts within Excel to illustrate trends and analysis; communicate this information in a timely manner to management and subscribers.</li>
   <li>Work with, and interview subject matter experts and research industry trends.</li>
   <li>Contribute to presentations as directed by management.</li>
-  <li>Develop and maintain rapport with key contacts, and liaise regularly with industry stakeholders (buyers, sellers, traders, brokers) to gain market intelligence.
+  <li>Develop and maintain rapport with key contacts, and liaise regularly with industry stakeholders (buyers, sellers, traders, brokers) to gain market intelligence.</li>
   <li>Develop new contacts within the market to aid with gathering prices and general market intelligence.</li>
   <li>Maintain existing databases and build new databases for designated products.</li>
   <li>Cover conferences and events (some travel required).</li>
