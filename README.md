@@ -4,15 +4,13 @@ This is a GitHub user page that was created to host a portfolio of projects for 
 
 LinkedIn:  https://www.linkedin.com/in/loganblackstad/
 
+<br>
+<b>Projects:</b>
+<br>
 
-<b>Projects</b>
+<b>Achievements:</b>
 
 
-Achievements
-
-
-Goals
-
+<b>Goals:</b>
 • D3.js visualizations
-
 • JupyterCon, AnacondaCON
