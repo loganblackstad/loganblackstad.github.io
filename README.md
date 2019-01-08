@@ -5,7 +5,7 @@ This is a GitHub user page that was created to host a portfolio of projects for 
 LinkedIn:  https://www.linkedin.com/in/loganblackstad/
 
 
-Projects
+<b>Projects</b>
 
 
 Achievements
