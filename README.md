@@ -12,6 +12,6 @@ LinkedIn:  https://www.linkedin.com/in/loganblackstad/
 <b>Achievements:</b>
 
 
-<b>Goals:</b>
-• D3.js visualizations
-• JupyterCon, AnacondaCON
+<b>Goals:</b><br>
+• D3.js visualizations<br>
+• JupyterCon, AnacondaCON<br>
