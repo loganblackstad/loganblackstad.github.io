@@ -7,6 +7,7 @@ LinkedIn:  https://www.linkedin.com/in/loganblackstad/
 <br>
 <b>Projects:</b>
 <br>
+<br>
 
 <b>Achievements:</b>
 
