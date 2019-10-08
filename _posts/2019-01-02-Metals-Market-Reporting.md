@@ -4,6 +4,7 @@ title: "Metals Market Reporting"
 date: 2019-01-02
 excerpt: "The rise of green energy technologies required for a low-carbon future is expected to lead to significant growth in demand for a wide range of minerals and metals..."
 tags: [ metals, mining ]
+teaser: "/assets/images/aerial-mining-1.jpg"
 --- 
 
 <div>
