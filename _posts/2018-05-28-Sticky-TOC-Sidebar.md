@@ -22,7 +22,7 @@ toc_label: "TOC Contents"
 ```
 
 <br>
-And place {{ "{% include toc %}" }} in the body of the specific post's .md file.
+And place {% raw  %}``{% include toc %}``{% endraw %} in the body of the specific post's .md file.
 
 
 
