@@ -2,6 +2,7 @@
 title: Sticky table of contents sidebar
 tags: [Random stuff, Jekyll, Liquid, CSS, Hacking]
 toc: true
+toc_sticky: true
 toc_label: "Contents"
 author_profile: true
 published: true
