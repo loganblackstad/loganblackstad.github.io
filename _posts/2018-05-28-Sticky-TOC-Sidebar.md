@@ -15,11 +15,14 @@ date: 2019-07-16
 
 Add the following to your front matter: 
 ```css
+---
 toc_sticky: true
 toc_label: "TOC Contents"
+---
 ```
 
-And place ``{% include toc %}`` in the body of the specific post's .md file.
+<br>
+And place {{ "{% include toc %}" }} in the body of the specific post's .md file.
 
 
 
