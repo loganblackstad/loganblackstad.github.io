@@ -12,6 +12,8 @@ It is convenient to have the table of contents (TOC) sidebar scroll down with th
 
 Turns out this is rather easily accomplished with the CSS ``position: stiky;`` attribute. I modified the ``/_sass/minimal-mistakes/_sidebar.scss`` file so that the ``.sidebar__right`` class looks like this:
 
+
+
 ```css
 .sidebar__right {
   margin-bottom: 1em;
