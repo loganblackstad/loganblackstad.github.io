@@ -9,6 +9,7 @@ published: true
 date: 2019-07-16
 ---
 
+{% include toc %}
 
 
 It is convenient to have the table of contents (TOC) sidebar scroll down with the page. This is assuming it is not longer than the window because then parts of the sidebar may be unaccessible.
