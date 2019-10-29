@@ -9,7 +9,9 @@ published: true
 date: 2019-07-16
 ---
 
+<!-- 
 {% include toc %}
+-->
 
 “Stick” a "Table of Contents" to the top of a page by adding ``toc_sticky: true`` to its YAML Front Matter.
 
