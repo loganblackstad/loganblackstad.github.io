@@ -83,31 +83,72 @@ author:
   name             : "Logan Blackstad"
   avatar           : https://avatars0.githubusercontent.com/u/26091324
   bio              : "Business & Data Analyst <br><br> <strong>Latest Project:</strong><br>(as of Jan 2020)<br><a href='https://loganblackstad.shinyapps.io/running-calc/' style='color:#000000'><u><i>R Shiny Application - Road Running Pace Calculator</i></u></a><br><br> <strong>Current Status:</strong><br>(as of Jan 2020)<br><i>1.</i> Seeking a full-time Data Analyst / BI position <br> <i>2.</i> Growing my network <br><i>3.</i> Learning new coding packages"
-  location         : "Location:" <br>"Atlanta, GA"
+  location         : #"Location:" <br>"Atlanta, GA"
   email            : logan.blackstad@gmail.com
   uri              :
+  links:
+    - label: "Location: Atlanta GA"
+       icon: "fas fa-map-marker-alt"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+       url: mailto:logan.blackstad@gmail.com
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+       url: "https://loganblackstad.github.io/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+       url: "https://twitter.com/LoganBlackstad"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+       url: "https://www.facebook.com/logan.blackstad"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+       url: "https://github.com/loganblackstad"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : logan.blackstad
+  facebook         : # logan.blackstad
   foursquare       :
-  github           : loganblackstad
+  github           : # loganblackstad
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : loganblackstad/
+  linkedin         : # loganblackstad/
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : LoganBlackstad
+  twitter          : # LoganBlackstad
   vine             :
   weibo            :
   xing             :
   youtube          :
+
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url:
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      # url:
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      # url:
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url:
+
 
 
 # Reading Files
