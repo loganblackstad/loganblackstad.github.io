@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Logan Blackstad"
   avatar           : https://avatars0.githubusercontent.com/u/26091324
-  bio              : "Business & Data Analyst <br><br> <strong>Latest Project:</strong><br>(as of Jan 2020)</font><hr style="height:10px; visibility:hidden;" /><br><a href='https://loganblackstad.shinyapps.io/running-calc/' style='color:#000000'><u><i>R Shiny Application - Road Running Pace Calculator</i></u></a><br><br> <strong>Current Status:</strong><br>(as of Jan 2020)<br><i>1.</i> Seeking a full-time Data Analyst / BI position <br> <i>2.</i> Growing my network <br><i>3.</i> Learning new coding packages"
+  bio              : "Business & Data Analyst <br><br> <strong>Latest Project:</strong><br>(as of Jan 2020)<br><a href='https://loganblackstad.shinyapps.io/running-calc/' style='color:#000000'><u><i>R Shiny Application - Road Running Pace Calculator</i></u></a><br><br> <strong>Current Status:</strong><br>(as of Jan 2020)<br><i>1.</i> Seeking a full-time Data Analyst / BI position <br> <i>2.</i> Growing my network <br><i>3.</i> Learning new coding packages"
   location         : #"Location:" <br>"Atlanta, GA"
   email            : logan.blackstad@gmail.com
   uri              :
