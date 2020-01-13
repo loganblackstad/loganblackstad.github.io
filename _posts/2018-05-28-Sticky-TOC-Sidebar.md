@@ -4,6 +4,7 @@ tags: [Random stuff, Jekyll, Liquid, CSS, Hacking]
 toc: true
 toc_sticky: true
 toc_label: "TOC Contents"
+excerpt: "'Stick' a 'Table of Contents' to the top of a page by adding ``toc_sticky: true`` to its YAML Front Matter..."
 author_profile: true
 published: true
 date: 2019-07-16
