@@ -1,5 +1,5 @@
 ---
-title: Sticky table of contents sidebar
+title: Sticky Table of Contents to Sidebar
 tags: [Random stuff, Jekyll, Liquid, CSS, Hacking]
 toc: true
 toc_sticky: true
