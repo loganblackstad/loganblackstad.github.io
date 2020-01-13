@@ -86,43 +86,43 @@ author:
   location         : #"Location:" <br>"Atlanta, GA"
   email            : logan.blackstad@gmail.com
   uri              :
-  links:
-    - label: "Location: Atlanta GA"
-      icon: "fas fa-map-marker-alt"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:logan.blackstad@gmail.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://loganblackstad.github.io/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/LoganBlackstad"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/logan.blackstad"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/loganblackstad"
+  # links:
+  #   - label: "Location: Atlanta GA"
+  #     icon: "fas fa-map-marker-alt"
+  #   - label: "Email"
+  #     icon: "fas fa-fw fa-envelope-square"
+  #     url: mailto:logan.blackstad@gmail.com
+  #   - label: "Website"
+  #     icon: "fas fa-fw fa-link"
+  #     url: "https://loganblackstad.github.io/"
+  #   - label: "Twitter"
+  #     icon: "fab fa-fw fa-twitter-square"
+  #     url: "https://twitter.com/LoganBlackstad"
+  #   - label: "Facebook"
+  #     icon: "fab fa-fw fa-facebook-square"
+  #     url: "https://www.facebook.com/logan.blackstad"
+  #   - label: "GitHub"
+  #     icon: "fab fa-fw fa-github"
+  #     url: "https://github.com/loganblackstad"
   
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : # logan.blackstad
+  facebook         : logan.blackstad
   foursquare       :
-  github           : # loganblackstad
+  github           : loganblackstad
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : # loganblackstad/
+  linkedin         : loganblackstad/
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : # LoganBlackstad
+  twitter          : LoganBlackstad
   vine             :
   weibo            :
   xing             :
