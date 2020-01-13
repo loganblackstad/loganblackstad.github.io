@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "R Shiny Application - Road Running Pace Calculator"
-date: 2020-01-013
-excerpt: "The rise of green energy technologies required for a low-carbon future is expected to lead to significant growth in demand for a wide range of minerals and metals..."
+date: 2020-01-13
+excerpt: "I was diassapointed that I could not find a simple online application/webpage for calculating track running 'splits' for distance training."
 tags: [ R, R shiny, shiny, apps ]
 teaser: "/assets/images/teaser.jpg"
 --- 
