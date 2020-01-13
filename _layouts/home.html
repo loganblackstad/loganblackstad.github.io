@@ -104,12 +104,15 @@ th, td {
   background-color: #4CAF50; /* Green background */
   border: 1px solid green; /* Green border */
   color: white; /* White text */
+  border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+
+/*
   text-align: center;
-  padding: 30px 40px; /* Some padding */
+  padding: 30px 40px; /* Some padding 
   font-size: 16px;
-  cursor: pointer; /* Pointer/hand icon */
+  cursor: pointer; /* Pointer/hand icon 
   float: left; /* Float the buttons side by side */
-}
+
 
 /* Clear floats (clearfix hack) */
 .btn-group:after {
@@ -126,6 +129,13 @@ th, td {
 .btn-group button:hover {
   background-color: #3e8e41;
 }
+
+.w3-btn,.w3-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.w3-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+
+.w3-btn,.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+
+
 
 </style>
 
@@ -156,7 +166,7 @@ To explore my site, <b>Click</b> on the links below (or the tabs in the header a
 <br>
 <br>
 
-<div class="btn-group" style="width:50%", >
+<div class="btn-group" style="width:70%", >
   <button style="width:33.3%">Resume</button>
   <button style="width:33.3%">Projects & Posts</button>
   <button style="width:33.3%">Links & Resources Archive</button>
