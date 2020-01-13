@@ -100,6 +100,31 @@ th, td {
     color: black; 
 }
 
+.btn-group button {
+  background-color: #4CAF50; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+
 </style>
 
 
@@ -107,10 +132,10 @@ th, td {
 <body>
 <br>
 
-<div class="d">Hello!</div><div class="d">&nbsp; I'm Logan Blackstad, business intelligence analyst and aspiring data scientist.  I build data analysis tools to solve complex business, engineering, and operations challenges.  My goal is to make data science easier, faster, and more accessible to all. 
+<div class="d">Hello!</div><div class="d">&nbsp; I'm Logan Blackstad. I use big data analytics to solve complex business, engineering, and operations challenges.  
 <br>
 <br>
-I’m an Atlanta native, and a proud Georgia Tech graduate. I'm am avid runner and cyclist, and like to be outside as much as possible.  
+I’m an Atlanta native, proud Georgia Tech graduate, and avid runner and cyclist. I like to get outside as much as possible!  
 <br>
 <br>
 
@@ -127,9 +152,9 @@ To explore my site, <b>Click</b> on the links below (or the tabs in the header a
 <center>
 <table>
   <tr>
-    <th><span class="underline-on-hover"><center><a href="https://loganblackstad.github.io/about/" style="color:#000000">About Me</a></center></span></th>
+    <th><span class="underline-on-hover"><center><a href="https://loganblackstad.github.io/about/" style="color:#000000">Resume</a></center></span></th>
     <th><span class="underline-on-hover"><center><a href="https://loganblackstad.github.io/projects/" style="color:#000000">Projects & Posts</a></center></span></th>
-    <th><span class="underline-on-hover"><center><a href="https://loganblackstad.github.io/archive&resources/" style="color:#000000">Archive</a></center></span></th>
+    <th><span class="underline-on-hover"><center><a href="https://loganblackstad.github.io/archive&resources/" style="color:#000000">Links & Resources Archive</a></center></span></th>
   </tr>
   <tr>
     <td><center><a href="https://loganblackstad.github.io/about/"><img src="/assets/images/icon-home-about-me.JPG" width="50%"></center></td>
