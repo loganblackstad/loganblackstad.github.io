@@ -141,7 +141,6 @@ author:
 
 
 # Reading Files
->>>>>>> parent of c458d79... Updated Sidebar in _config.yml; Added new Post for running calc
 include:
     - .htaccess
     - _pages
