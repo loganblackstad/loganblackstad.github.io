@@ -7,17 +7,17 @@ tags: [ R, R shiny, shiny, apps ]
 teaser: "/assets/images/teaser.jpg"
 --- 
 
-<h2>Create An R Shiny App to Calculate Running Pace & Mile Splits</h2>
+<h3>R Shiny App to Calculate Running Pace & Mile Splits</h3>
 
-<h3>Description:</h3>
+<b>Description:</b>
 I was diassapointed that I could not find a simple online application/webpage for calculating track running 'splits' for distance training.
 
-<h3>Inputs</h3>
+<b>Inputs</b>
 HH:MM:SS = hours:minutes:seconds
 D = distance
 
-<h3>Output</h3>
+<b>Output</b>
 Pace [minutes/mile] [minutes/km]
 
-<h3>Shiny Server Link:</h3>
+<b>Shiny Server Link:</b>
 <a href="https://loganblackstad.shinyapps.io/running-calc/">https://loganblackstad.shinyapps.io/running-calc/</a>
