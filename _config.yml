@@ -12,7 +12,7 @@ locale                   : "en"
 title                    : "loganblackstad.github.io"
 title_separator          : "|"
 name                     : "Logan Blackstad"
-description              : "Logan Blackstad Data Analyst"
+description              : "Logan Blackstad Data Engineer"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -82,8 +82,9 @@ analytics:
 author:
   name             : "Logan Blackstad"
   avatar           : https://avatars0.githubusercontent.com/u/26091324
-  bio              : "Business & Data Analyst <br><br> <strong>Latest Project:</strong><br><i>posted Jan 2020</i><br><a href='https://loganblackstad.github.io/R-Shiny-Running-Calc/' style='color:#0000EE'>R Shiny Application - Road Running Pace Calculator</a><br><br> <strong>Current Status:</strong><br><i>as of Jan 2020</i><br>1. Seeking a full-time Data Analyst position <br> 2. Growing my network <br>3. Learning new coding packages"
-  location         : Atlanta, GA
+  bio              : "Data Engineer @ Delta Air Lines (Atlanta, GA) <br><br> <strong>Site Last Updated:</strong><br><i>June 2025</i><br><a href='https://loganblackstad.github.io/' style='color:#0000EE'>https://loganblackstad.github.io/</a><br><br> <strong>Current Status: </strong><br><i>June 2025</i><br>1. Data Engineering <br> 2. Travel <br>3. Sharing Best Practices"
+  # bio              : "Data Engineer <br><br> <strong>Latest Project:</strong><br><i>posted Jan 2020</i><br><a href='https://loganblackstad.github.io/R-Shiny-Running-Calc/' style='color:#0000EE'>R Shiny Application - Road Running Pace Calculator</a><br><br> <strong>Current Status:</strong><br><i>as of Jan 2020</i><br>1. Seeking a full-time Data Analyst position <br> 2. Growing my network <br>3. Learning new coding packages"
+  location         : <strong>Location:</strong><br>Atlanta, GA
   email            : logan.blackstad@gmail.com
   uri              :
   # links:
@@ -109,7 +110,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : logan.blackstad
+  facebook         : 
   foursquare       :
   github           : loganblackstad
   google_plus      :
@@ -122,7 +123,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : LoganBlackstad
+  twitter          : 
   vine             :
   weibo            :
   xing             :
